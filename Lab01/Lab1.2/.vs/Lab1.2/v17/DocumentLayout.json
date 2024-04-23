@@ -1,0 +1,126 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\ASPNET Mvc\\K22CNT4_NguyenThiTraMi_AspNet\\Lab01\\Lab1.2\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{47B016D8-81A5-4B85-8B50-9ADE0FEF80FF}|Lab1.2\\Lab1.2.csproj|d:\\aspnet mvc\\k22cnt4_nguyenthitrami_aspnet\\lab01\\lab1.2\\lab1.2\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{47B016D8-81A5-4B85-8B50-9ADE0FEF80FF}|Lab1.2\\Lab1.2.csproj|solutionrelative:lab1.2\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{47B016D8-81A5-4B85-8B50-9ADE0FEF80FF}|Lab1.2\\Lab1.2.csproj|d:\\aspnet mvc\\k22cnt4_nguyenthitrami_aspnet\\lab01\\lab1.2\\lab1.2\\views\\home\\about.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{47B016D8-81A5-4B85-8B50-9ADE0FEF80FF}|Lab1.2\\Lab1.2.csproj|solutionrelative:lab1.2\\views\\home\\about.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{47B016D8-81A5-4B85-8B50-9ADE0FEF80FF}|Lab1.2\\Lab1.2.csproj|d:\\aspnet mvc\\k22cnt4_nguyenthitrami_aspnet\\lab01\\lab1.2\\lab1.2\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{47B016D8-81A5-4B85-8B50-9ADE0FEF80FF}|Lab1.2\\Lab1.2.csproj|solutionrelative:lab1.2\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{47B016D8-81A5-4B85-8B50-9ADE0FEF80FF}|Lab1.2\\Lab1.2.csproj|d:\\aspnet mvc\\k22cnt4_nguyenthitrami_aspnet\\lab01\\lab1.2\\lab1.2\\views\\home\\contact.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{47B016D8-81A5-4B85-8B50-9ADE0FEF80FF}|Lab1.2\\Lab1.2.csproj|solutionrelative:lab1.2\\views\\home\\contact.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{47B016D8-81A5-4B85-8B50-9ADE0FEF80FF}|Lab1.2\\Lab1.2.csproj|d:\\aspnet mvc\\k22cnt4_nguyenthitrami_aspnet\\lab01\\lab1.2\\lab1.2\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{47B016D8-81A5-4B85-8B50-9ADE0FEF80FF}|Lab1.2\\Lab1.2.csproj|solutionrelative:lab1.2\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{47B016D8-81A5-4B85-8B50-9ADE0FEF80FF}|Lab1.2\\Lab1.2.csproj|d:\\aspnet mvc\\k22cnt4_nguyenthitrami_aspnet\\lab01\\lab1.2\\lab1.2\\views\\home\\products.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{47B016D8-81A5-4B85-8B50-9ADE0FEF80FF}|Lab1.2\\Lab1.2.csproj|solutionrelative:lab1.2\\views\\home\\products.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Contact.cshtml",
+              "DocumentMoniker": "D:\\ASPNET Mvc\\K22CNT4_NguyenThiTraMi_AspNet\\Lab01\\Lab1.2\\Lab1.2\\Views\\Home\\Contact.cshtml",
+              "RelativeDocumentMoniker": "Lab1.2\\Views\\Home\\Contact.cshtml",
+              "ToolTip": "D:\\ASPNET Mvc\\K22CNT4_NguyenThiTraMi_AspNet\\Lab01\\Lab1.2\\Lab1.2\\Views\\Home\\Contact.cshtml",
+              "RelativeToolTip": "Lab1.2\\Views\\Home\\Contact.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-23T05:03:17.582Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "D:\\ASPNET Mvc\\K22CNT4_NguyenThiTraMi_AspNet\\Lab01\\Lab1.2\\Lab1.2\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Lab1.2\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "D:\\ASPNET Mvc\\K22CNT4_NguyenThiTraMi_AspNet\\Lab01\\Lab1.2\\Lab1.2\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Lab1.2\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAAACQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-23T04:57:05.732Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\ASPNET Mvc\\K22CNT4_NguyenThiTraMi_AspNet\\Lab01\\Lab1.2\\Lab1.2\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Lab1.2\\Views\\Home\\Index.cshtml",
+              "ToolTip": "D:\\ASPNET Mvc\\K22CNT4_NguyenThiTraMi_AspNet\\Lab01\\Lab1.2\\Lab1.2\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Lab1.2\\Views\\Home\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-23T04:56:40.704Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "About.cshtml",
+              "DocumentMoniker": "D:\\ASPNET Mvc\\K22CNT4_NguyenThiTraMi_AspNet\\Lab01\\Lab1.2\\Lab1.2\\Views\\Home\\About.cshtml",
+              "RelativeDocumentMoniker": "Lab1.2\\Views\\Home\\About.cshtml",
+              "ToolTip": "D:\\ASPNET Mvc\\K22CNT4_NguyenThiTraMi_AspNet\\Lab01\\Lab1.2\\Lab1.2\\Views\\Home\\About.cshtml",
+              "RelativeToolTip": "Lab1.2\\Views\\Home\\About.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-23T04:55:58.155Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Products.cshtml",
+              "DocumentMoniker": "D:\\ASPNET Mvc\\K22CNT4_NguyenThiTraMi_AspNet\\Lab01\\Lab1.2\\Lab1.2\\Views\\Home\\Products.cshtml",
+              "RelativeDocumentMoniker": "Lab1.2\\Views\\Home\\Products.cshtml",
+              "ToolTip": "D:\\ASPNET Mvc\\K22CNT4_NguyenThiTraMi_AspNet\\Lab01\\Lab1.2\\Lab1.2\\Views\\Home\\Products.cshtml",
+              "RelativeToolTip": "Lab1.2\\Views\\Home\\Products.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-23T04:50:40.316Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "D:\\ASPNET Mvc\\K22CNT4_NguyenThiTraMi_AspNet\\Lab01\\Lab1.2\\Lab1.2\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Lab1.2\\Controllers\\HomeController.cs",
+              "ToolTip": "D:\\ASPNET Mvc\\K22CNT4_NguyenThiTraMi_AspNet\\Lab01\\Lab1.2\\Lab1.2\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Lab1.2\\Controllers\\HomeController.cs",
+              "ViewState": "AQIAAAoAAAAAAAAAAAAqwBYAAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-23T04:48:57.58Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
