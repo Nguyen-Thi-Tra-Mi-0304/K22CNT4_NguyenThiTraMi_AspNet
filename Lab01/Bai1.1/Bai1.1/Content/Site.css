@@ -1,0 +1,32 @@
+﻿body {
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+/* Set padding to keep content from hitting the edges */
+.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* Set width on the form input elements since they're 100% wide by default */
+input,
+select,
+textarea {
+    max-width: 280px;
+}
+nav.nav-bar {
+    padding: 12px 0;
+    margin: 0 12px;
+    font-size: 24px;
+}
+img {
+    width: 800px;
+    height: auto;
+    display: block;
+    margin: 0 auto; 
+    border: 2px solid #333;
+}
+img:hover {
+    filter: brightness(70%);
+}
