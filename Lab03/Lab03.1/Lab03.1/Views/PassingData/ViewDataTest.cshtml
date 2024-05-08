@@ -1,0 +1,19 @@
+﻿
+@{
+    ViewBag.Title = "ViewDataTest";
+}
+
+<h2>Dữ liệu nhận được từ ViewData</h2>
+<h3>@ViewData["message1"]</h3>
+<h3>@ViewData["message2"]</h3>
+<h2>Danh sách sinh viên</h2>
+@{ 
+    var students = ViewData["student"] as string[];
+}
+@if (students != null)
+            {
+                foreach (var st in students)
+                {
+                    <h5>@st</h5>
+                }    
+            } 

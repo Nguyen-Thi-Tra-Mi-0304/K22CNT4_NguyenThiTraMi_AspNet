@@ -1,0 +1,30 @@
+﻿
+@{
+    ViewBag.Title = "MultiplicationTable";
+}
+
+<h2>Bảng Cửu Chương từ 2 đến 9:</h2>
+@for(int i=2; i<=9; i++)
+            {
+                <h3>Bảng @i</h3>
+                <table border="1">
+                    <tr>
+                        <th>@i</th>
+                        <th>x</th>
+                        <th>Number</th>
+                        <th>=</th>
+                        <th>Result</th>
+                    </tr>
+                    @for(int j=1; j<=10; j++)
+                        {
+                            <tr>
+                                <td>@i</td>
+                                <td>x</td>
+                                <td>@j</td>
+                                <td>=</td>
+                                <td>@(i*j)</td>
+                            </tr>
+                        }
+                </table>
+            }
+

@@ -1,0 +1,64 @@
+﻿
+@{
+    ViewBag.Title = "FormRegister";
+}
+
+<h2>Đăng ký thành viên</h2>
+@{
+    Html.BeginForm("Register", "HTMLHelper", FormMethod.Get);
+    <table class="table table-bordered">
+        <tr>
+            <td>@Html.Label("Tên đăng nhập")</td>
+            <td>@Html.TextBox("txtUName")</td>
+        </tr>
+        <tr>
+            <td>@Html.Label("Mật khẩu")</td>
+            <td>@Html.Password("txtPass")</td>
+        </tr>
+        <tr>
+            <td>@Html.Label("Nhập lại mật khẩu")</td>
+            <td>@Html.Password("txCfPass")</td>
+        </tr>
+        <tr>
+            <td>@Html.Label("Họ và tên")</td>
+            <td>@Html.TextBox("txtFName")</td>
+        </tr>
+        <tr>
+            <td>@Html.Label("Ngày sinh")</td>
+            <td><input type="date" name="BDay" /></td>
+        </tr>
+        <tr>
+            <td>@Html.Label("Giới tính")</td>
+            <td>
+                @Html.RadioButton("Gender", "Name", true) Nam
+                @Html.RadioButton("Gender", "Nữ") Nữ
+            </td>
+        </tr>
+        <tr>
+            <td>@Html.Label("Địa chỉ")</td>
+            <td>@Html.TextArea("txtAddress")</td>
+        </tr>
+        <tr>
+            <td>@Html.Label("Email")</td>
+            <td>@Html.TextBox("txtEmail")</td>
+        </tr>
+        <tr>
+            <td>@Html.Label("Quốc gia")</td>
+            <td>
+                @Html.DropDownList("Country", new SelectList(ViewBag.listCountry, "ID", "Name"))
+            </td>
+        </tr>
+        <tr>
+            <td>@Html.Label("Sở thích")</td>
+            <td>
+                @Html.CheckBox("Reading") Đọc sách
+                @Html.CheckBox("Shopping") Mua sắm @Html.CheckBox("Sport") Thể thao
+            </td>
+        </tr>
+        <tr>
+            <td></td>
+            <td><input type="submit" value="Đăng Ký" /></td>
+        </tr>
+    </table>
+    Html.EndForm();
+}

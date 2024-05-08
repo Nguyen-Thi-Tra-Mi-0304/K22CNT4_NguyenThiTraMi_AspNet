@@ -1,0 +1,29 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Danh sách các bài hát</h2>
+<table class="table table-bordered">
+    <thead>
+        <tr>
+            <th>Mã bài hát</th>
+            <th>Tên bài hát</th>
+            <th>Lựa chọn</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var song in Model)
+        {
+            <tr>
+                <td>@song.ID</td>
+                <td>@song.Title</td>
+                <td>
+                    @Html.ActionLink("Chi Tiết", "DetailsProduct", new }) |
+                    <a href="@Url.Action("Download", "Song", new { id = song.ID })">Tải về</a>
+
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

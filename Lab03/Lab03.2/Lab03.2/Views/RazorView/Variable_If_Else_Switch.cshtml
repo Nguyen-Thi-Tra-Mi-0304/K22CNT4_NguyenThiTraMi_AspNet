@@ -1,0 +1,69 @@
+﻿
+@{
+    ViewBag.Title = "Variable_If_Else_Switch";
+}
+
+<h2>Variable If Else Switch in Razor</h2>
+
+@* razor khai báo biến như trong C# có thể dùng var cho biến chưa xác định
+    kiểu *@
+@* khi khai báo biến bắt buộc phải khởi tạo giá trị *@
+@* khi gọi biến trong các thẻ html phải gắn ký tự @ trước tên biến*@
+@* cấu trúc if else và switch tương tự như trong C# *@
+@{
+    var message1 = "Sử dụng biến ";
+    var message2 = "Sử dụng cấu trúc if else";
+    var message3 = "Sử dụng cấu trúc switch";
+    string message4 = "";
+    int age = 19;
+    var today = DateTime.Now.DayOfWeek.ToString();
+}
+<h3>@message1</h3>
+<hr />
+<h3>@message2</h3>
+@{ 
+    if(age < 18)
+            {
+                <h4>Bạn đang là học sinh tuổi teen</h4>
+            }
+    else if (age < 22)
+            {
+                <h4>Bạn đang là sinh viên yêu đời</h4>
+            }
+    else if (age > 22)
+            {
+                <h4>Bạn đã và đang bắt đầu đi làm...</h4>
+            }
+}
+<hr/>
+<h3>@message3</h3>
+@{
+    switch (today)
+    {
+        case "Monday":
+            message4 = "Hôm nay là thứ hai đầu tuần";
+            break;
+        case "Tuesday":
+            message4 = "Hôm nay là thứ Ba";
+            break;
+        case "Wednesday":
+            message4 = "Hôm nay là thứ Tư";
+            break;
+        case "Thursday":
+            message4 = "Hôm nay là thứ Năm";
+            break;
+        case "Friday":
+            message4 = "Hôm nay là thứ Sáu";
+            break;
+        case "Saturday":
+            message4 = "Hôm nay là thứ Bảy";
+            break;
+        case "Sunday":
+            message4 = "Hôm nay là chủ nhật cuối tuần";
+            break;
+        default:
+            message4 = "";
+            break;
+    }
+    <h4>@message4</h4>
+}

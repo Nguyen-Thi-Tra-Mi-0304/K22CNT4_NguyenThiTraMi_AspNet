@@ -1,0 +1,14 @@
+﻿
+@{
+    ViewBag.Title = "ViewBagTest";
+}
+
+<h2>Dữ liệu nhận từ ViewBag</h2>
+<h3>@ViewBag.message1</h3>
+<h3>@ViewBag.message2</h3>
+<h2>Danh sách sinh viên</h2>
+@foreach (var st in ViewBag.students)
+            {
+                <h5>@st</h5>
+            }
+

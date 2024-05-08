@@ -1,0 +1,57 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\ASPNET Mvc\\K22CNT4_NguyenThiTraMi_AspNet\\Lab02\\Lab03.1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{ECF13731-4A9A-43FF-8033-F776FFBD730C}|Lab03.1\\Lab03.1.csproj|d:\\aspnet mvc\\k22cnt4_nguyenthitrami_aspnet\\lab02\\lab03.1\\lab03.1\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{ECF13731-4A9A-43FF-8033-F776FFBD730C}|Lab03.1\\Lab03.1.csproj|solutionrelative:lab03.1\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ECF13731-4A9A-43FF-8033-F776FFBD730C}|Lab03.1\\Lab03.1.csproj|D:\\ASPNET Mvc\\K22CNT4_NguyenThiTraMi_AspNet\\Lab02\\Lab03.1\\lab03.1\\controllers\\passingdatacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ECF13731-4A9A-43FF-8033-F776FFBD730C}|Lab03.1\\Lab03.1.csproj|solutionrelative:lab03.1\\controllers\\passingdatacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "D:\\ASPNET Mvc\\K22CNT4_NguyenThiTraMi_AspNet\\Lab02\\Lab03.1\\Lab03.1\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Lab03.1\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "D:\\ASPNET Mvc\\K22CNT4_NguyenThiTraMi_AspNet\\Lab02\\Lab03.1\\Lab03.1\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Lab03.1\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAABKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-08T13:49:43.703Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "PassingDataController.cs",
+              "DocumentMoniker": "D:\\ASPNET Mvc\\K22CNT4_NguyenThiTraMi_AspNet\\Lab02\\Lab03.1\\Lab03.1\\Controllers\\PassingDataController.cs",
+              "RelativeDocumentMoniker": "Lab03.1\\Controllers\\PassingDataController.cs",
+              "ToolTip": "D:\\ASPNET Mvc\\K22CNT4_NguyenThiTraMi_AspNet\\Lab02\\Lab03.1\\Lab03.1\\Controllers\\PassingDataController.cs",
+              "RelativeToolTip": "Lab03.1\\Controllers\\PassingDataController.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAA3wB0AAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-08T13:33:43.313Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

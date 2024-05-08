@@ -1,0 +1,92 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\ASPNET Mvc\\K22CNT4_NguyenThiTraMi_AspNet\\Lab03\\Lab03.2\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{45C2719F-76B0-4DB5-8267-12442D82DA89}|Lab03.2\\Lab03.2.csproj|d:\\aspnet mvc\\k22cnt4_nguyenthitrami_aspnet\\lab03\\lab03.2\\lab03.2\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{45C2719F-76B0-4DB5-8267-12442D82DA89}|Lab03.2\\Lab03.2.csproj|solutionrelative:lab03.2\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{45C2719F-76B0-4DB5-8267-12442D82DA89}|Lab03.2\\Lab03.2.csproj|d:\\aspnet mvc\\k22cnt4_nguyenthitrami_aspnet\\lab03\\lab03.2\\lab03.2\\views\\razorview\\array_loop.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{45C2719F-76B0-4DB5-8267-12442D82DA89}|Lab03.2\\Lab03.2.csproj|solutionrelative:lab03.2\\views\\razorview\\array_loop.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{45C2719F-76B0-4DB5-8267-12442D82DA89}|Lab03.2\\Lab03.2.csproj|d:\\aspnet mvc\\k22cnt4_nguyenthitrami_aspnet\\lab03\\lab03.2\\lab03.2\\controllers\\razorviewcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{45C2719F-76B0-4DB5-8267-12442D82DA89}|Lab03.2\\Lab03.2.csproj|solutionrelative:lab03.2\\controllers\\razorviewcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{45C2719F-76B0-4DB5-8267-12442D82DA89}|Lab03.2\\Lab03.2.csproj|d:\\aspnet mvc\\k22cnt4_nguyenthitrami_aspnet\\lab03\\lab03.2\\lab03.2\\views\\razorview\\variable_if_else_switch.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{45C2719F-76B0-4DB5-8267-12442D82DA89}|Lab03.2\\Lab03.2.csproj|solutionrelative:lab03.2\\views\\razorview\\variable_if_else_switch.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "D:\\ASPNET Mvc\\K22CNT4_NguyenThiTraMi_AspNet\\Lab03\\Lab03.2\\Lab03.2\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Lab03.2\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "D:\\ASPNET Mvc\\K22CNT4_NguyenThiTraMi_AspNet\\Lab03\\Lab03.2\\Lab03.2\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Lab03.2\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAACMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-08T14:21:51.723Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Array_Loop.cshtml",
+              "DocumentMoniker": "D:\\ASPNET Mvc\\K22CNT4_NguyenThiTraMi_AspNet\\Lab03\\Lab03.2\\Lab03.2\\Views\\RazorView\\Array_Loop.cshtml",
+              "RelativeDocumentMoniker": "Lab03.2\\Views\\RazorView\\Array_Loop.cshtml",
+              "ToolTip": "D:\\ASPNET Mvc\\K22CNT4_NguyenThiTraMi_AspNet\\Lab03\\Lab03.2\\Lab03.2\\Views\\RazorView\\Array_Loop.cshtml",
+              "RelativeToolTip": "Lab03.2\\Views\\RazorView\\Array_Loop.cshtml",
+              "ViewState": "AQIAABUAAAAAAAAAAAAAADcAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-08T14:18:25.145Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Variable_If_Else_Switch.cshtml",
+              "DocumentMoniker": "D:\\ASPNET Mvc\\K22CNT4_NguyenThiTraMi_AspNet\\Lab03\\Lab03.2\\Lab03.2\\Views\\RazorView\\Variable_If_Else_Switch.cshtml",
+              "RelativeDocumentMoniker": "Lab03.2\\Views\\RazorView\\Variable_If_Else_Switch.cshtml",
+              "ToolTip": "D:\\ASPNET Mvc\\K22CNT4_NguyenThiTraMi_AspNet\\Lab03\\Lab03.2\\Lab03.2\\Views\\RazorView\\Variable_If_Else_Switch.cshtml",
+              "RelativeToolTip": "Lab03.2\\Views\\RazorView\\Variable_If_Else_Switch.cshtml",
+              "ViewState": "AQIAACoAAAAAAAAAAAAAAEMAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-08T14:12:48.436Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "RazorViewController.cs",
+              "DocumentMoniker": "D:\\ASPNET Mvc\\K22CNT4_NguyenThiTraMi_AspNet\\Lab03\\Lab03.2\\Lab03.2\\Controllers\\RazorViewController.cs",
+              "RelativeDocumentMoniker": "Lab03.2\\Controllers\\RazorViewController.cs",
+              "ToolTip": "D:\\ASPNET Mvc\\K22CNT4_NguyenThiTraMi_AspNet\\Lab03\\Lab03.2\\Lab03.2\\Controllers\\RazorViewController.cs",
+              "RelativeToolTip": "Lab03.2\\Controllers\\RazorViewController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-08T14:11:35.087Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
