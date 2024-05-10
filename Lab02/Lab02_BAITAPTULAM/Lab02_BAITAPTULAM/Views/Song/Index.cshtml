@@ -3,27 +3,27 @@
     ViewBag.Title = "Index";
 }
 
-<h2>Danh sách các bài hát</h2>
-<table class="table table-bordered">
+<h1>Bảng xếp hạng tháng 8</h1>
+<table class="table table-bordered text-center">
     <thead>
         <tr>
-            <th>Mã bài hát</th>
             <th>Tên bài hát</th>
-            <th>Lựa chọn</th>
+            <th>Tải về</th>
         </tr>
     </thead>
     <tbody>
         @foreach (var song in Model)
-        {
-            <tr>
-                <td>@song.ID</td>
-                <td>@song.Title</td>
-                <td>
-                    @Html.ActionLink("Chi Tiết", "DetailsProduct", new }) |
-                    <a href="@Url.Action("Download", "Song", new { id = song.ID })">Tải về</a>
-
-                </td>
-            </tr>
-        }
+            {
+                <tr>
+                    <td>
+                        <a href="@Url.Action("Details", "Song", new { downloadLink = song.DownloadLink })">@song.Title - @song.Artist</a>
+                    </td>
+                    <td>
+                        <a href="@Url.Content("~/Content/Songs/" + song.DownloadLink)" download>Tải về</a>
+                    </td>
+                </tr>
+            }
     </tbody>
 </table>
+
+

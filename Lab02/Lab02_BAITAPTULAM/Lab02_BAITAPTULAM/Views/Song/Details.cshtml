@@ -1,0 +1,15 @@
+﻿
+@{
+    ViewBag.Title = "Details";
+}
+
+<h1>Chi tiết bài hát</h1>
+
+<h2>@Model.Title - @Model.Artist</h2>
+
+<audio controls>
+    <source src="@Url.Content("~/Content/Songs/" + Model.DownloadLink)" type="audio/mpeg">
+    Trình duyệt của bạn không hỗ trợ phát audio.
+</audio>
+<br>
+<a href="@Url.Content("~/Content/Songs/" + Model.DownloadLink)" download>Tải về</a>

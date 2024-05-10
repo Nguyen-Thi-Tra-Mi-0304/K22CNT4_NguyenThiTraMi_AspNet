@@ -7,8 +7,8 @@ namespace Lab02_BAITAPTULAM.Models
 {
     public class Song
     {
-        public int ID { get; set; }
         public string Title { get; set; }
-        public string FilePath { get; set; }
+        public string Artist { get; set; }
+        public string DownloadLink { get; set; }
     }
 }

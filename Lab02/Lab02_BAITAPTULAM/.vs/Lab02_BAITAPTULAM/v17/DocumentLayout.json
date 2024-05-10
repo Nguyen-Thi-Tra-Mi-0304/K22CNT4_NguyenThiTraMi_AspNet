@@ -3,16 +3,28 @@
   "WorkspaceRootPath": "D:\\ASPNET Mvc\\K22CNT4_NguyenThiTraMi_AspNet\\Lab02\\Lab02_BAITAPTULAM\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{3154BA73-9E0F-43D5-AC8A-E8B26CC6AD69}|Lab02_BAITAPTULAM\\Lab02_BAITAPTULAM.csproj|d:\\aspnet mvc\\k22cnt4_nguyenthitrami_aspnet\\lab02\\lab02_baitaptulam\\lab02_baitaptulam\\controllers\\songcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3154BA73-9E0F-43D5-AC8A-E8B26CC6AD69}|Lab02_BAITAPTULAM\\Lab02_BAITAPTULAM.csproj|solutionrelative:lab02_baitaptulam\\controllers\\songcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{34394F60-FA65-40A4-BEE5-DAA79E41660D}|Lab02_BAITAPTULAM\\Lab02_BAITAPTULAM.csproj|D:\\ASPNET Mvc\\K22CNT4_NguyenThiTraMi_AspNet\\Lab02\\Lab02_BAITAPTULAM\\lab02_baitaptulam\\views\\song\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{34394F60-FA65-40A4-BEE5-DAA79E41660D}|Lab02_BAITAPTULAM\\Lab02_BAITAPTULAM.csproj|solutionrelative:lab02_baitaptulam\\views\\song\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3154BA73-9E0F-43D5-AC8A-E8B26CC6AD69}|Lab02_BAITAPTULAM\\Lab02_BAITAPTULAM.csproj|D:\\ASPNET Mvc\\K22CNT4_NguyenThiTraMi_AspNet\\Lab02\\Lab02_BAITAPTULAM\\lab02_baitaptulam\\views\\song\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{3154BA73-9E0F-43D5-AC8A-E8B26CC6AD69}|Lab02_BAITAPTULAM\\Lab02_BAITAPTULAM.csproj|solutionrelative:lab02_baitaptulam\\views\\song\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{34394F60-FA65-40A4-BEE5-DAA79E41660D}|Lab02_BAITAPTULAM\\Lab02_BAITAPTULAM.csproj|D:\\ASPNET Mvc\\K22CNT4_NguyenThiTraMi_AspNet\\Lab02\\Lab02_BAITAPTULAM\\lab02_baitaptulam\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{34394F60-FA65-40A4-BEE5-DAA79E41660D}|Lab02_BAITAPTULAM\\Lab02_BAITAPTULAM.csproj|solutionrelative:lab02_baitaptulam\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3154BA73-9E0F-43D5-AC8A-E8B26CC6AD69}|Lab02_BAITAPTULAM\\Lab02_BAITAPTULAM.csproj|D:\\ASPNET Mvc\\K22CNT4_NguyenThiTraMi_AspNet\\Lab02\\Lab02_BAITAPTULAM\\lab02_baitaptulam\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{3154BA73-9E0F-43D5-AC8A-E8B26CC6AD69}|Lab02_BAITAPTULAM\\Lab02_BAITAPTULAM.csproj|solutionrelative:lab02_baitaptulam\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{34394F60-FA65-40A4-BEE5-DAA79E41660D}|Lab02_BAITAPTULAM\\Lab02_BAITAPTULAM.csproj|d:\\aspnet mvc\\k22cnt4_nguyenthitrami_aspnet\\lab02\\lab02_baitaptulam\\lab02_baitaptulam\\views\\song\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{34394F60-FA65-40A4-BEE5-DAA79E41660D}|Lab02_BAITAPTULAM\\Lab02_BAITAPTULAM.csproj|solutionrelative:lab02_baitaptulam\\views\\song\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{34394F60-FA65-40A4-BEE5-DAA79E41660D}|Lab02_BAITAPTULAM\\Lab02_BAITAPTULAM.csproj|D:\\ASPNET Mvc\\K22CNT4_NguyenThiTraMi_AspNet\\Lab02\\Lab02_BAITAPTULAM\\lab02_baitaptulam\\controllers\\songcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{34394F60-FA65-40A4-BEE5-DAA79E41660D}|Lab02_BAITAPTULAM\\Lab02_BAITAPTULAM.csproj|solutionrelative:lab02_baitaptulam\\controllers\\songcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{34394F60-FA65-40A4-BEE5-DAA79E41660D}|Lab02_BAITAPTULAM\\Lab02_BAITAPTULAM.csproj|D:\\ASPNET Mvc\\K22CNT4_NguyenThiTraMi_AspNet\\Lab02\\Lab02_BAITAPTULAM\\lab02_baitaptulam\\app_start\\routeconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{34394F60-FA65-40A4-BEE5-DAA79E41660D}|Lab02_BAITAPTULAM\\Lab02_BAITAPTULAM.csproj|solutionrelative:lab02_baitaptulam\\app_start\\routeconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{34394F60-FA65-40A4-BEE5-DAA79E41660D}|Lab02_BAITAPTULAM\\Lab02_BAITAPTULAM.csproj|D:\\ASPNET Mvc\\K22CNT4_NguyenThiTraMi_AspNet\\Lab02\\Lab02_BAITAPTULAM\\lab02_baitaptulam\\models\\song.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{34394F60-FA65-40A4-BEE5-DAA79E41660D}|Lab02_BAITAPTULAM\\Lab02_BAITAPTULAM.csproj|solutionrelative:lab02_baitaptulam\\models\\song.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,7 +34,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -30,42 +42,79 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "RouteConfig.cs",
+              "DocumentMoniker": "D:\\ASPNET Mvc\\K22CNT4_NguyenThiTraMi_AspNet\\Lab02\\Lab02_BAITAPTULAM\\Lab02_BAITAPTULAM\\App_Start\\RouteConfig.cs",
+              "RelativeDocumentMoniker": "Lab02_BAITAPTULAM\\App_Start\\RouteConfig.cs",
+              "ToolTip": "D:\\ASPNET Mvc\\K22CNT4_NguyenThiTraMi_AspNet\\Lab02\\Lab02_BAITAPTULAM\\Lab02_BAITAPTULAM\\App_Start\\RouteConfig.cs",
+              "RelativeToolTip": "Lab02_BAITAPTULAM\\App_Start\\RouteConfig.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-10T10:08:10.843Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "D:\\ASPNET Mvc\\K22CNT4_NguyenThiTraMi_AspNet\\Lab02\\Lab02_BAITAPTULAM\\Lab02_BAITAPTULAM\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "Lab02_BAITAPTULAM\\Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "D:\\ASPNET Mvc\\K22CNT4_NguyenThiTraMi_AspNet\\Lab02\\Lab02_BAITAPTULAM\\Lab02_BAITAPTULAM\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "Lab02_BAITAPTULAM\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAAoAAAA",
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "D:\\ASPNET Mvc\\K22CNT4_NguyenThiTraMi_AspNet\\Lab02\\Lab02_BAITAPTULAM\\Lab02_BAITAPTULAM\\Views\\Song\\Details.cshtml",
+              "RelativeDocumentMoniker": "Lab02_BAITAPTULAM\\Views\\Song\\Details.cshtml",
+              "ToolTip": "D:\\ASPNET Mvc\\K22CNT4_NguyenThiTraMi_AspNet\\Lab02\\Lab02_BAITAPTULAM\\Lab02_BAITAPTULAM\\Views\\Song\\Details.cshtml",
+              "RelativeToolTip": "Lab02_BAITAPTULAM\\Views\\Song\\Details.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-05-08T03:26:22.339Z",
+              "WhenOpened": "2024-05-10T10:00:50.937Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "D:\\ASPNET Mvc\\K22CNT4_NguyenThiTraMi_AspNet\\Lab02\\Lab02_BAITAPTULAM\\Lab02_BAITAPTULAM\\Views\\Song\\Index.cshtml",
-              "RelativeDocumentMoniker": "Lab02_BAITAPTULAM\\Views\\Song\\Index.cshtml",
-              "ToolTip": "D:\\ASPNET Mvc\\K22CNT4_NguyenThiTraMi_AspNet\\Lab02\\Lab02_BAITAPTULAM\\Lab02_BAITAPTULAM\\Views\\Song\\Index.cshtml",
-              "RelativeToolTip": "Lab02_BAITAPTULAM\\Views\\Song\\Index.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAABHAAAA",
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "D:\\ASPNET Mvc\\K22CNT4_NguyenThiTraMi_AspNet\\Lab02\\Lab02_BAITAPTULAM\\Lab02_BAITAPTULAM\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Lab02_BAITAPTULAM\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "D:\\ASPNET Mvc\\K22CNT4_NguyenThiTraMi_AspNet\\Lab02\\Lab02_BAITAPTULAM\\Lab02_BAITAPTULAM\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Lab02_BAITAPTULAM\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAvAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-05-08T03:11:36.064Z",
+              "WhenOpened": "2024-05-10T09:56:10.395Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\ASPNET Mvc\\K22CNT4_NguyenThiTraMi_AspNet\\Lab02\\Lab02_BAITAPTULAM\\Lab02_BAITAPTULAM\\Views\\Song\\Index.cshtml",
+              "RelativeDocumentMoniker": "Lab02_BAITAPTULAM\\Views\\Song\\Index.cshtml",
+              "ToolTip": "D:\\ASPNET Mvc\\K22CNT4_NguyenThiTraMi_AspNet\\Lab02\\Lab02_BAITAPTULAM\\Lab02_BAITAPTULAM\\Views\\Song\\Index.cshtml",
+              "RelativeToolTip": "Lab02_BAITAPTULAM\\Views\\Song\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAALAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-10T09:55:14.438Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "SongController.cs",
               "DocumentMoniker": "D:\\ASPNET Mvc\\K22CNT4_NguyenThiTraMi_AspNet\\Lab02\\Lab02_BAITAPTULAM\\Lab02_BAITAPTULAM\\Controllers\\SongController.cs",
               "RelativeDocumentMoniker": "Lab02_BAITAPTULAM\\Controllers\\SongController.cs",
               "ToolTip": "D:\\ASPNET Mvc\\K22CNT4_NguyenThiTraMi_AspNet\\Lab02\\Lab02_BAITAPTULAM\\Lab02_BAITAPTULAM\\Controllers\\SongController.cs",
               "RelativeToolTip": "Lab02_BAITAPTULAM\\Controllers\\SongController.cs",
-              "ViewState": "AQIAAB4AAAAAAAAAAAAcwDsAAAABAAAA",
+              "ViewState": "AQIAABAAAAAAAAAAAAAgwCUAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-08T02:41:19.596Z",
+              "WhenOpened": "2024-05-10T09:54:29.992Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Song.cs",
+              "DocumentMoniker": "D:\\ASPNET Mvc\\K22CNT4_NguyenThiTraMi_AspNet\\Lab02\\Lab02_BAITAPTULAM\\Lab02_BAITAPTULAM\\Models\\Song.cs",
+              "RelativeDocumentMoniker": "Lab02_BAITAPTULAM\\Models\\Song.cs",
+              "ToolTip": "D:\\ASPNET Mvc\\K22CNT4_NguyenThiTraMi_AspNet\\Lab02\\Lab02_BAITAPTULAM\\Lab02_BAITAPTULAM\\Models\\Song.cs",
+              "RelativeToolTip": "Lab02_BAITAPTULAM\\Models\\Song.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-10T09:53:42.162Z"
             }
           ]
         }
