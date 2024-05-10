@@ -1,0 +1,87 @@
+﻿
+@{
+    ViewBag.Title = "FormRegister";
+}
+
+<h2>Đăng ký thành viên</h2>
+@{ 
+    @Html.BeginForm("Register", "HTMLHelper", FormMethod.Get);
+<table class="table table-bordered">
+    <tr class="blue-background text-center text-uppercase">
+        <td colspan="2">Thông tin về đơn vị tuyến</td>
+    </tr>
+    <tr>
+        <td>@Html.Label("Tên đơn vị tuyến (*)")</td>
+        <td>@Html.TextBox("txtCName")</td>
+    </tr>
+    <tr>
+        <td>@Html.Label("Loại hình doanh nghiệp (*)")</td>
+        <td>@Html.DropDownList("Company", new SelectList(ViewBag.listCompany, "Id", "Name"))</td>
+    </tr>
+    <tr>
+        <td>@Html.Label("Số lượng nhân viên")</td>
+        <td>@Html.TextBox("txtQuantity")</td>
+    </tr>
+    <tr class="blue-background text-center text-uppercase">
+        <td colspan="2">Thông tin liên hệ</td>
+    </tr>
+    <tr>
+        <td>@Html.Label("Địa chỉ (*)")</td>
+        <td>@Html.TextBox("txtAddress")</td>
+    </tr>
+    <tr>
+        <td>@Html.Label("Người liên hệ (*)")</td>
+        <td>@Html.TextBox("txtFName")</td>
+    </tr>
+    <tr>
+        <td>@Html.Label("Số điện thoại (*)")</td>
+        <td>@Html.TextBox("txtPhone")</td>
+    </tr>
+    <tr>
+        <td>@Html.Label("Số Fax")</td>
+        <td>@Html.TextBox("txtFax")</td>
+    </tr>
+    <tr>
+        <td>@Html.Label("Email")</td>
+        <td>@Html.TextBox("txtEmail")</td>
+    </tr>
+    <tr>
+        <td>@Html.Label("Địa chỉ website")</td>
+        <td>@Html.TextBox("txtAEmail")</td>
+    </tr>
+    <tr class="blue-background text-center text-uppercase">
+        <td colspan="2">Thông tin đăng nhập</td>
+    </tr>
+    <tr>
+        <td>@Html.Label("Tên đăng nhập (*)")</td>
+        <td>@Html.TextBox("txtUName")</td>
+    </tr>
+    <tr>
+        <td>@Html.Label("Mật khẩu (*)")</td>
+        <td>@Html.TextBox("txtPass")</td>
+    </tr>
+    <tr>
+        <td>@Html.Label("Xác nhận mật khẩu (*)")</td>
+        <td>@Html.TextBox("txtCfPass")</td>
+    </tr>
+    <tr class="blue-background text-center text-uppercase">
+        <td colspan="2">Nhận Email</td>
+    </tr>
+    <tr>
+        <td>@Html.Label("Nhận thư điện tử")</td>
+        <td>
+            @Html.RadioButton("Mail", "Nhận", true) Nhận
+            @Html.RadioButton("Mail", "Không Nhận", false) Không nhận
+        </td>
+    </tr>
+</table>
+<input type="submit" value="Cập nhật"/> <button class="text-center">Hủy bỏ</button>
+    Html.EndForm();
+}
+
+<style>
+    .blue-background {
+        background-color: #007bff;
+        color: #fff; 
+    }
+</style>

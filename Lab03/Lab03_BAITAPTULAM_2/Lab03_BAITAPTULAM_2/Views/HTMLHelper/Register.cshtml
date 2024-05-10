@@ -1,0 +1,75 @@
+﻿
+@{
+    ViewBag.Title = "SubmitForm";
+}
+
+<h2>Thông tin đăng ký</h2>
+<table class="table table-bordered">
+    <tr class="blue-background text-center text-uppercase">
+        <td colspan="2">Thông tin về đơn vị tuyến</td>
+    </tr>
+    <tr>
+        <td>Tên đơn vị tuyến: </td>
+        <td>@TempData["CName"]</td>
+    </tr>
+    <tr>
+        <td>Loại hình doanh nghiệp: </td>
+        <td>@TempData["Company"]</td>
+    </tr>
+    <tr>
+        <td>Số lượng nhân viên</td>
+        <td>@TempData["Quantity"]</td>
+    </tr>
+    <tr class="blue-background text-center text-uppercase">
+        <td colspan="2">Thông tin liên hệ</td>
+    </tr>
+    <tr>
+        <td>Địa chỉ: </td>
+        <td>@TempData["Address"]</td>
+    </tr>
+    <tr>
+        <td>Người liên hệ: </td>
+        <td>@TempData["FName"]</td>
+    </tr>
+    <tr>
+        <td>Số điện thoại: </td>
+        <td>@TempData["Phone"]</td>
+    </tr>
+    <tr>
+        <td>Số Fax</td>
+        <td>@TempData["Fax"]</td>
+    </tr>
+    <tr>
+        <td>Email: </td>
+        <td>@TempData["Email"]</td>
+    </tr>
+    <tr>
+        <td>Địa chi Email: </td>
+        <td>@TempData["AEmail"]</td>
+    </tr>
+    <tr class="blue-background text-center text-uppercase">
+        <td colspan="2">Thông tin đăng nhập</td>
+    </tr>
+    <tr>
+        <td>Tên đăng nhập: </td>
+        <td>@TempData["UName"]</td>
+    </tr>
+    <tr>
+        <td>Mật khẩu</td>
+        <td>@TempData["Pass"]</td>
+    </tr>
+    <tr class="blue-background text-center text-uppercase">
+        <td colspan="2">Nhận Email</td>
+    </tr>
+    <tr>
+        <td>Nhận thư điện tử</td>
+        <td>@TempData["Mail"]</td>
+    </tr>
+</table>
+
+<style>
+    .blue-background {
+        background-color: #007bff;
+        color: #fff;
+    }
+</style>

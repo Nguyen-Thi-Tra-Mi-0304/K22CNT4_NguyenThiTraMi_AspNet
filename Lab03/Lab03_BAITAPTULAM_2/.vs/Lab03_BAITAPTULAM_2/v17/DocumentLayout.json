@@ -1,0 +1,108 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\ASPNET Mvc\\K22CNT4_NguyenThiTraMi_AspNet\\Lab03\\Lab03_BAITAPTULAM_2\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{53DE001B-0C3E-4F5B-BE1B-7537737A9119}|Lab03_BAITAPTULAM_2\\Lab03_BAITAPTULAM_2.csproj|D:\\ASPNET Mvc\\K22CNT4_NguyenThiTraMi_AspNet\\Lab03\\Lab03_BAITAPTULAM_2\\lab03_baitaptulam_2\\controllers\\htmlhelpercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{53DE001B-0C3E-4F5B-BE1B-7537737A9119}|Lab03_BAITAPTULAM_2\\Lab03_BAITAPTULAM_2.csproj|solutionrelative:lab03_baitaptulam_2\\controllers\\htmlhelpercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{53DE001B-0C3E-4F5B-BE1B-7537737A9119}|Lab03_BAITAPTULAM_2\\Lab03_BAITAPTULAM_2.csproj|D:\\ASPNET Mvc\\K22CNT4_NguyenThiTraMi_AspNet\\Lab03\\Lab03_BAITAPTULAM_2\\lab03_baitaptulam_2\\views\\htmlhelper\\formregister.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{53DE001B-0C3E-4F5B-BE1B-7537737A9119}|Lab03_BAITAPTULAM_2\\Lab03_BAITAPTULAM_2.csproj|solutionrelative:lab03_baitaptulam_2\\views\\htmlhelper\\formregister.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{53DE001B-0C3E-4F5B-BE1B-7537737A9119}|Lab03_BAITAPTULAM_2\\Lab03_BAITAPTULAM_2.csproj|d:\\aspnet mvc\\k22cnt4_nguyenthitrami_aspnet\\lab03\\lab03_baitaptulam_2\\lab03_baitaptulam_2\\views\\htmlhelper\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{53DE001B-0C3E-4F5B-BE1B-7537737A9119}|Lab03_BAITAPTULAM_2\\Lab03_BAITAPTULAM_2.csproj|solutionrelative:lab03_baitaptulam_2\\views\\htmlhelper\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{53DE001B-0C3E-4F5B-BE1B-7537737A9119}|Lab03_BAITAPTULAM_2\\Lab03_BAITAPTULAM_2.csproj|d:\\aspnet mvc\\k22cnt4_nguyenthitrami_aspnet\\lab03\\lab03_baitaptulam_2\\lab03_baitaptulam_2\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{53DE001B-0C3E-4F5B-BE1B-7537737A9119}|Lab03_BAITAPTULAM_2\\Lab03_BAITAPTULAM_2.csproj|solutionrelative:lab03_baitaptulam_2\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{53DE001B-0C3E-4F5B-BE1B-7537737A9119}|Lab03_BAITAPTULAM_2\\Lab03_BAITAPTULAM_2.csproj|D:\\ASPNET Mvc\\K22CNT4_NguyenThiTraMi_AspNet\\Lab03\\Lab03_BAITAPTULAM_2\\lab03_baitaptulam_2\\models\\company.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{53DE001B-0C3E-4F5B-BE1B-7537737A9119}|Lab03_BAITAPTULAM_2\\Lab03_BAITAPTULAM_2.csproj|solutionrelative:lab03_baitaptulam_2\\models\\company.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "D:\\ASPNET Mvc\\K22CNT4_NguyenThiTraMi_AspNet\\Lab03\\Lab03_BAITAPTULAM_2\\Lab03_BAITAPTULAM_2\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Lab03_BAITAPTULAM_2\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "D:\\ASPNET Mvc\\K22CNT4_NguyenThiTraMi_AspNet\\Lab03\\Lab03_BAITAPTULAM_2\\Lab03_BAITAPTULAM_2\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Lab03_BAITAPTULAM_2\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABMAAABPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-10T06:19:31.554Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Register.cshtml",
+              "DocumentMoniker": "D:\\ASPNET Mvc\\K22CNT4_NguyenThiTraMi_AspNet\\Lab03\\Lab03_BAITAPTULAM_2\\Lab03_BAITAPTULAM_2\\Views\\HTMLHelper\\Register.cshtml",
+              "RelativeDocumentMoniker": "Lab03_BAITAPTULAM_2\\Views\\HTMLHelper\\Register.cshtml",
+              "ToolTip": "D:\\ASPNET Mvc\\K22CNT4_NguyenThiTraMi_AspNet\\Lab03\\Lab03_BAITAPTULAM_2\\Lab03_BAITAPTULAM_2\\Views\\HTMLHelper\\Register.cshtml",
+              "RelativeToolTip": "Lab03_BAITAPTULAM_2\\Views\\HTMLHelper\\Register.cshtml",
+              "ViewState": "AQIAABMAAAAAAAAAAAAgwDwAAAA7AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-10T06:01:55.495Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "HTMLHelperController.cs",
+              "DocumentMoniker": "D:\\ASPNET Mvc\\K22CNT4_NguyenThiTraMi_AspNet\\Lab03\\Lab03_BAITAPTULAM_2\\Lab03_BAITAPTULAM_2\\Controllers\\HTMLHelperController.cs",
+              "RelativeDocumentMoniker": "Lab03_BAITAPTULAM_2\\Controllers\\HTMLHelperController.cs",
+              "ToolTip": "D:\\ASPNET Mvc\\K22CNT4_NguyenThiTraMi_AspNet\\Lab03\\Lab03_BAITAPTULAM_2\\Lab03_BAITAPTULAM_2\\Controllers\\HTMLHelperController.cs",
+              "RelativeToolTip": "Lab03_BAITAPTULAM_2\\Controllers\\HTMLHelperController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-10T05:04:56.597Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "FormRegister.cshtml",
+              "DocumentMoniker": "D:\\ASPNET Mvc\\K22CNT4_NguyenThiTraMi_AspNet\\Lab03\\Lab03_BAITAPTULAM_2\\Lab03_BAITAPTULAM_2\\Views\\HTMLHelper\\FormRegister.cshtml",
+              "RelativeDocumentMoniker": "Lab03_BAITAPTULAM_2\\Views\\HTMLHelper\\FormRegister.cshtml",
+              "ToolTip": "D:\\ASPNET Mvc\\K22CNT4_NguyenThiTraMi_AspNet\\Lab03\\Lab03_BAITAPTULAM_2\\Lab03_BAITAPTULAM_2\\Views\\HTMLHelper\\FormRegister.cshtml",
+              "RelativeToolTip": "Lab03_BAITAPTULAM_2\\Views\\HTMLHelper\\FormRegister.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAA0AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-10T05:21:56.087Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Company.cs",
+              "DocumentMoniker": "D:\\ASPNET Mvc\\K22CNT4_NguyenThiTraMi_AspNet\\Lab03\\Lab03_BAITAPTULAM_2\\Lab03_BAITAPTULAM_2\\Models\\Company.cs",
+              "RelativeDocumentMoniker": "Lab03_BAITAPTULAM_2\\Models\\Company.cs",
+              "ToolTip": "D:\\ASPNET Mvc\\K22CNT4_NguyenThiTraMi_AspNet\\Lab03\\Lab03_BAITAPTULAM_2\\Lab03_BAITAPTULAM_2\\Models\\Company.cs",
+              "RelativeToolTip": "Lab03_BAITAPTULAM_2\\Models\\Company.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-10T05:00:49.417Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
