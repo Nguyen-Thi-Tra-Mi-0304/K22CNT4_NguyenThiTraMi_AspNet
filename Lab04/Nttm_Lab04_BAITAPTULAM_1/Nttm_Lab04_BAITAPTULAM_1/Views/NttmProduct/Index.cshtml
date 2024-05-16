@@ -1,0 +1,58 @@
+﻿@model IEnumerable<Nttm_Lab04_BAITAPTULAM_1.Models.NttmProducts>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Danh sách thực đơn</h2>
+<!-- Search Form -->
+@using (Html.BeginForm("Index", "NttmProduct", FormMethod.Post))
+{
+    <p>
+        Search by Name: @Html.TextBox("name")
+        <input type="submit" value="Search" />
+    </p>
+}
+<p>
+    @Html.ActionLink("Create New", "NttmCreate")
+</p>
+<table class="table table-bordered">
+    <tr>
+        <th>
+            ProductID
+        <th>
+            ProductName
+        </th>
+        <th>
+            Unit
+        </th>
+        <th>
+            Price
+        </th>
+        <th>Action</th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.ProductId)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ProductName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ProductUnit)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ProductPrice)
+            </td>
+            <td>
+                @Html.ActionLink("Sửa", "NttmEdit", new { id = item.ProductId }) |
+                @Html.ActionLink("Chi Tiết", "NttmDetails", new { id = item.ProductId }) |
+                @Html.ActionLink("Xóa", "NttmDelete", new { id = item.ProductId })
+            </td>
+        </tr>
+    }
+
+</table>

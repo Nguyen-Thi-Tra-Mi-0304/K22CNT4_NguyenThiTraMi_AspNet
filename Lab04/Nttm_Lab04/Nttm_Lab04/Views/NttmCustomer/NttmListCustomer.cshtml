@@ -1,0 +1,41 @@
+﻿@model List<Nttm_Lab04.Models.NttmCustomer>
+@{
+    ViewBag.Title = "NttmListCustomer";
+    /* var list = ViewBag.list;*/
+    /* var list = Model as List<Nttm_Lab04.Models.NttmCustomer>;*/
+    int stt = 0;
+}
+
+<h2>Danh sách khách hàng</h2>
+<div class="row">
+    <table class="table table-bordered">
+        <thead>
+            <tr>
+                <th>#</th>
+                <th>Mã số</th>
+                <th>Họ và tên</th>
+                <th>Địa chỉ</th>
+                <th>Năm sinh</th>
+                <th>Chức năng</th>
+            </tr>
+        </thead>
+        <tbody>
+            @*@foreach (var item in list)*@
+            @foreach (var item in Model)
+            {
+            <tr>
+                <td>@stt</td>
+                <td>@item.CustomerID</td>
+                <td>@item.FirstName @item.LastName </td>
+                <td>@item.Address</td>
+                <td>@item.YearOfBirth</td>
+                <td>
+                    <a href="#">Edit</a> |
+                    <a href="#">Delete</a>
+                </td>
+            </tr>
+            }
+        </tbody>
+    </table>
+</div>
+

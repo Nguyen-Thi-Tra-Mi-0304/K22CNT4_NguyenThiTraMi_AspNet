@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Products>
+  <Product>
+    <ProductId>P001</ProductId>
+    <ProductName>Lẩu thái</ProductName>
+    <Unit>Nồi</Unit>
+    <Price>150000</Price>
+  </Product>
+  <Product>
+    <ProductId>P002</ProductId>
+    <ProductName>Lẩu cá kèo</ProductName>
+    <Unit>Nồi</Unit>
+    <Price>250000</Price>
+  </Product>
+  <Product>
+    <ProductId>P003</ProductId>
+    <ProductName>Lẩu thập cẩm</ProductName>
+    <Unit>Nồi</Unit>
+    <Price>350000</Price>
+  </Product>
+  <Product>
+    <ProductId>P004</ProductId>
+    <ProductName>Lẩu gà </ProductName>
+    <Unit>Nồi</Unit>
+    <Price>350000</Price>
+  </Product>
+</Products>

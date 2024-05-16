@@ -1,0 +1,31 @@
+﻿@*lấy dữ liệu truyền qua đối tượng model theo cách 1*@
+@model Nttm_Lab04_1.Models.NttmCustomer
+@{
+    ViewBag.Title = "Chi tiết khách hàng";
+    //lấy dữ liệu truyền qua đối tượng theo cách 2
+    //var customer = Model as Lab04.Models.Customer;
+}
+
+<h2>Chi tiết khách hàng lấy theo cách 1 </h2>
+<p>Mã số: @Model.CustomerId </p>
+<p>Họ và tên: @Model.FullName </p>
+<p>Địa chỉ: @Model.Address </p>
+<p>Điện thoại: @Model.Phone </p>
+<p>Email: @Model.Email </p>
+<p>Số tiền dư: @Model.Balance </p>
+
+@*<h2>Chi tiết khách hàng lấy theo cách 1</h2>
+    <p>Mã số: @customer.CustomerId </p>
+    <p>Họ và tên: @customer.FullName </p>
+    <p>Địa chỉ: @customer.Address </p>
+    <p>Điện thoại: @customer.Phone </p>
+    <p>Email: @customer.Email </p>
+    <p>Số tiền dư: @customer.Balance </p>*@
+
+@*<h2>Chi tiết khách hàng lấy qua ViewBag</h2>
+<p>Mã số: @ViewBag.customer.CustomerId </p>
+<p>Họ và tên: @ViewBag.customer.FullName </p>
+<p>Địa chỉ: @ViewBag.customer.Address </p>
+<p>Điện thoại: @ViewBag.customer.Phone </p>
+<p>Email: @ViewBag.customer.Email </p>
+<p>Số tiền dư: @ViewBag.customer.Balance </p>*@

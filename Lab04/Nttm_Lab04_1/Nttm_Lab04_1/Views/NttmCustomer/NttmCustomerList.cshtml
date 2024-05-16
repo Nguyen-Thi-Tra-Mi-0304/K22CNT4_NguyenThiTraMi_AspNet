@@ -1,0 +1,35 @@
+﻿
+@{
+    ViewBag.Title = "NttmCustomerList";
+    //lấy danh sách khách hàng và convert data
+    var listCustomer = ViewBag.listcustomer as List<Nttm_Lab04_1.Models.NttmCustomer>;
+}
+
+<h2>Danh sách khách hàng </h2>
+<table class="table table-bordered">
+    <thead>
+        <tr>
+            <th>Mã KH</th>
+            <th>Họ và tên</th>
+            <th>Địa chỉ</th>
+            <th>Email</th>
+            <th>Điện thoại</th>
+            <th>Số dư</th>
+        </tr>
+    </thead>
+    <tbody>
+        @*Hiển thị danh sách khách hàng*@
+        @foreach (var c in listCustomer)
+        {
+            <tr>
+                <td>@c.CustomerId</td>
+                <td>@c.FullName</td>
+                <td>@c.Address</td>
+                <td>@c.Email</td>
+                <td>@c.Phone</td>
+                <td>@c.Balance</td>
+            </tr>
+        }
+    </tbody>
+</table>
+

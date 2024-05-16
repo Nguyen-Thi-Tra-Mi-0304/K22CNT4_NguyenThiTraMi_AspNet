@@ -1,0 +1,75 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\ASPNET Mvc\\K22CNT4_NguyenThiTraMi_AspNet\\Lab04\\Nttm_Lab04_BAITAPTULAM_2\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{13515FE7-6A41-48D4-9C7E-F76A2987C164}|Nttm_Lab04_BAITAPTULAM_2\\Nttm_Lab04_BAITAPTULAM_2.csproj|d:\\aspnet mvc\\k22cnt4_nguyenthitrami_aspnet\\lab04\\nttm_lab04_baitaptulam_2\\nttm_lab04_baitaptulam_2\\controllers\\nttmphotoalbumcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{13515FE7-6A41-48D4-9C7E-F76A2987C164}|Nttm_Lab04_BAITAPTULAM_2\\Nttm_Lab04_BAITAPTULAM_2.csproj|solutionrelative:nttm_lab04_baitaptulam_2\\controllers\\nttmphotoalbumcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{13515FE7-6A41-48D4-9C7E-F76A2987C164}|Nttm_Lab04_BAITAPTULAM_2\\Nttm_Lab04_BAITAPTULAM_2.csproj|d:\\aspnet mvc\\k22cnt4_nguyenthitrami_aspnet\\lab04\\nttm_lab04_baitaptulam_2\\nttm_lab04_baitaptulam_2\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{13515FE7-6A41-48D4-9C7E-F76A2987C164}|Nttm_Lab04_BAITAPTULAM_2\\Nttm_Lab04_BAITAPTULAM_2.csproj|solutionrelative:nttm_lab04_baitaptulam_2\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{13515FE7-6A41-48D4-9C7E-F76A2987C164}|Nttm_Lab04_BAITAPTULAM_2\\Nttm_Lab04_BAITAPTULAM_2.csproj|d:\\aspnet mvc\\k22cnt4_nguyenthitrami_aspnet\\lab04\\nttm_lab04_baitaptulam_2\\nttm_lab04_baitaptulam_2\\views\\nttmphotoalbum\\nttmindex.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{13515FE7-6A41-48D4-9C7E-F76A2987C164}|Nttm_Lab04_BAITAPTULAM_2\\Nttm_Lab04_BAITAPTULAM_2.csproj|solutionrelative:nttm_lab04_baitaptulam_2\\views\\nttmphotoalbum\\nttmindex.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "D:\\ASPNET Mvc\\K22CNT4_NguyenThiTraMi_AspNet\\Lab04\\Nttm_Lab04_BAITAPTULAM_2\\Nttm_Lab04_BAITAPTULAM_2\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Nttm_Lab04_BAITAPTULAM_2\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "D:\\ASPNET Mvc\\K22CNT4_NguyenThiTraMi_AspNet\\Lab04\\Nttm_Lab04_BAITAPTULAM_2\\Nttm_Lab04_BAITAPTULAM_2\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Nttm_Lab04_BAITAPTULAM_2\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAABcAAAAKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-16T16:23:34.825Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "NttmIndex.cshtml",
+              "DocumentMoniker": "D:\\ASPNET Mvc\\K22CNT4_NguyenThiTraMi_AspNet\\Lab04\\Nttm_Lab04_BAITAPTULAM_2\\Nttm_Lab04_BAITAPTULAM_2\\Views\\NttmPhotoAlbum\\NttmIndex.cshtml",
+              "RelativeDocumentMoniker": "Nttm_Lab04_BAITAPTULAM_2\\Views\\NttmPhotoAlbum\\NttmIndex.cshtml",
+              "ToolTip": "D:\\ASPNET Mvc\\K22CNT4_NguyenThiTraMi_AspNet\\Lab04\\Nttm_Lab04_BAITAPTULAM_2\\Nttm_Lab04_BAITAPTULAM_2\\Views\\NttmPhotoAlbum\\NttmIndex.cshtml",
+              "RelativeToolTip": "Nttm_Lab04_BAITAPTULAM_2\\Views\\NttmPhotoAlbum\\NttmIndex.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-16T16:21:07.785Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "NttmPhotoAlbumController.cs",
+              "DocumentMoniker": "D:\\ASPNET Mvc\\K22CNT4_NguyenThiTraMi_AspNet\\Lab04\\Nttm_Lab04_BAITAPTULAM_2\\Nttm_Lab04_BAITAPTULAM_2\\Controllers\\NttmPhotoAlbumController.cs",
+              "RelativeDocumentMoniker": "Nttm_Lab04_BAITAPTULAM_2\\Controllers\\NttmPhotoAlbumController.cs",
+              "ToolTip": "D:\\ASPNET Mvc\\K22CNT4_NguyenThiTraMi_AspNet\\Lab04\\Nttm_Lab04_BAITAPTULAM_2\\Nttm_Lab04_BAITAPTULAM_2\\Controllers\\NttmPhotoAlbumController.cs",
+              "RelativeToolTip": "Nttm_Lab04_BAITAPTULAM_2\\Controllers\\NttmPhotoAlbumController.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAAAgwAkAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-16T16:18:29.049Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
