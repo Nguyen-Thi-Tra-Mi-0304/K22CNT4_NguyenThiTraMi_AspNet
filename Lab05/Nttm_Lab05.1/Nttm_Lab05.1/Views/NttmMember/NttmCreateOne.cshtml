@@ -1,0 +1,72 @@
+﻿@model Nttm_Lab05._1.Models.NttmMember
+
+@{
+    ViewBag.Title = "Sử dụng HTML5 validate data";
+}
+
+<h2>Sử dụng HTML5 validate data</h2>
+
+
+@using (Html.BeginForm()) 
+{
+    @Html.AntiForgeryToken()
+    
+<div class="form-horizontal">
+    <h4>Thêm thành viên</h4>
+    <hr />
+    @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+    <div class="form-group">
+        @Html.Label("Mã thành viên", new { @class = "control-label col-md-2" })
+        <div class="col-md-10">
+            @Html.TextBoxFor(model => model.Id, new { Required = "Required", type = "number" })
+        </div>
+    </div>
+
+    <div class="form-group">
+        @Html.Label("Tên đăng nhập", new { @class = "control-label col-md-2" })
+        <div class="col-md-10">
+            @Html.TextBoxFor(model => model.NttmUserName, new { Required = "Required" })
+        </div>
+    </div>
+
+    <div class="form-group">
+        @Html.Label("Họ và tên", new { @class = "control-label col-md-2" })
+        <div class="col-md-10">
+            @Html.TextBoxFor(model => model.NttmFullName, new { Required = "Required" })
+        </div>
+    </div>
+
+    <div class="form-group">
+        @Html.Label("Mật khẩu", new { @class = "control-label col-md-2" })
+        <div class="col-md-10">
+            @Html.TextBoxFor(model => model.NttmPassWord, new { Required = "Required" })
+        </div>
+    </div>
+
+    <div class="form-group">
+        @Html.Label("Tuổi", new { @class = "control-label col-md-2" })
+        <div class="col-md-10">
+            @Html.TextBoxFor(model => model.NttmAge, new { Required = "Required", type = "number", min = "18", max = "60" })
+        </div>
+    </div>
+    <div class="form-group">
+        @Html.Label("Email", new { @class = "control-label col-md-2" })
+        <div class="col-md-10">
+            @Html.TextBoxFor(model => model.NttmEmail, new { Required = "Required", type = "email"})
+        </div>
+    </div>
+    <div class="form-group">
+        <div class="col-md-offset-2 col-md-10">
+            <input type="submit" value="Lưu" class="btn btn-default" />
+        </div>
+    </div>
+</div>
+}
+
+<div>
+    @Html.ActionLink("Back to List", "Index")
+</div>
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+}

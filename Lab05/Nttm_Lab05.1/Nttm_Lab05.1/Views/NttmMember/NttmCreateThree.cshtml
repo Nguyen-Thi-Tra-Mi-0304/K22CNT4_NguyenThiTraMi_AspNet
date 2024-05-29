@@ -1,0 +1,79 @@
+﻿@model Nttm_Lab05._1.Models.NttmMember
+
+@{
+    ViewBag.Title = "Kiểm tra dữ liệu theo cách 3";
+}
+
+<h2>Kiểm tra dữ liệu theo cách 3</h2>
+
+
+@using (Html.BeginForm()) 
+{
+    @Html.AntiForgeryToken()
+    
+<div class="form-horizontal">
+    <h4>NttmMember</h4>
+    <hr />
+    @Html.ValidationSummary(true)
+    <div class="form-group">
+        @Html.Label("Mã thành viên", new { @class = "control-label col-md-2" })
+        <div class="col-md-10">
+            @Html.EditorFor(model => model.Id)
+            @Html.ValidationMessageFor(model => model.Id)
+        </div>
+    </div>
+
+    <div class="form-group">
+        @Html.Label("Tên đăng nhập", new { @class = "control-label col-md-2" })
+        <div class="col-md-10">
+            @Html.EditorFor(model => model.NttmUserName)
+            @Html.ValidationMessageFor(model => model.NttmUserName)
+        </div>
+    </div>
+
+    <div class="form-group">
+        @Html.Label("Họ và tên", new { @class = "control-label col-md-2" })
+        <div class="col-md-10">
+            @Html.EditorFor(model => model.NttmFullName)
+            @Html.ValidationMessageFor(model => model.NttmFullName)
+        </div>
+    </div>
+
+    <div class="form-group">
+        @Html.Label("Mật khẩu", new { @class = "control-label col-md-2" })
+        <div class="col-md-10">
+            @Html.EditorFor(model => model.NttmPassWord)
+            @Html.ValidationMessageFor(model => model.NttmPassWord)
+        </div>
+    </div>
+
+    <div class="form-group">
+        @Html.Label("Tuổi", new { @class = "control-label col-md-2" })
+        <div class="col-md-10">
+            @Html.EditorFor(model => model.NttmAge)
+            @Html.ValidationMessageFor(model => model.NttmAge)
+        </div>
+    </div>
+    <div class="form-group">
+        @Html.Label("Email", new { @class = "control-label col-md-2" })
+        <div class="col-md-10">
+            @Html.EditorFor(model => model.NttmEmail)
+            @Html.ValidationMessageFor(model => model.NttmEmail)
+        </div>
+    </div>
+
+    <div class="form-group">
+        <div class="col-md-offset-2 col-md-10">
+            <input type="submit" value="Lưu" class="btn btn-default" />
+        </div>
+    </div>
+</div>
+}
+
+<div>
+    @Html.ActionLink("Back to List", "Index")
+</div>
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+}

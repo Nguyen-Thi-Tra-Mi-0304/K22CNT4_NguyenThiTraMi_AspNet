@@ -1,0 +1,51 @@
+﻿@model IEnumerable<Nttm_Lab05.Models.NttmSong>
+
+@{
+    ViewBag.Title = "Nttm: Danh sách Song";
+}
+
+<h2>Nttm: Danh sách Song</h2>
+
+<p>
+    @Html.ActionLink("Create New", "NttmCreate")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.NttmTitle)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.NttmAuthor)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.NttmArtist)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.NttmYearRelease)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.NttmTitle)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.NttmAuthor)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.NttmArtist)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.NttmYearRelease)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id=item.Id }) |
+            @Html.ActionLink("Details", "Details", new { id=item.Id }) |
+            @Html.ActionLink("Delete", "Delete", new { id=item.Id })
+        </td>
+    </tr>
+}
+
+</table>

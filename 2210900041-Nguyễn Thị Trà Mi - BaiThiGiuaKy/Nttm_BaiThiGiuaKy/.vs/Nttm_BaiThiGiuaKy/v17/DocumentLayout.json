@@ -1,0 +1,123 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\ASPNET Mvc\\K22CNT4_NguyenThiTraMi_AspNet\\2210900041-Nguy\u1EC5n Th\u1ECB Tr\u00E0 Mi\\Nttm_BaiThiGiuaKy\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{86E6739B-E33B-44A7-A25F-B0A916A608C7}|Nttm_BaiThiGiuaKy\\Nttm_BaiThiGiuaKy.csproj|d:\\aspnet mvc\\k22cnt4_nguyenthitrami_aspnet\\2210900041-nguy\u1EC5n th\u1ECB tr\u00E0 mi\\nttm_baithigiuaky\\nttm_baithigiuaky\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{86E6739B-E33B-44A7-A25F-B0A916A608C7}|Nttm_BaiThiGiuaKy\\Nttm_BaiThiGiuaKy.csproj|solutionrelative:nttm_baithigiuaky\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{86E6739B-E33B-44A7-A25F-B0A916A608C7}|Nttm_BaiThiGiuaKy\\Nttm_BaiThiGiuaKy.csproj|D:\\ASPNET Mvc\\K22CNT4_NguyenThiTraMi_AspNet\\2210900041-Nguy\u1EC5n Th\u1ECB Tr\u00E0 Mi\\Nttm_BaiThiGiuaKy\\nttm_baithigiuaky\\controllers\\nttmcustormercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{86E6739B-E33B-44A7-A25F-B0A916A608C7}|Nttm_BaiThiGiuaKy\\Nttm_BaiThiGiuaKy.csproj|solutionrelative:nttm_baithigiuaky\\controllers\\nttmcustormercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{86E6739B-E33B-44A7-A25F-B0A916A608C7}|Nttm_BaiThiGiuaKy\\Nttm_BaiThiGiuaKy.csproj|D:\\ASPNET Mvc\\K22CNT4_NguyenThiTraMi_AspNet\\2210900041-Nguy\u1EC5n Th\u1ECB Tr\u00E0 Mi\\Nttm_BaiThiGiuaKy\\nttm_baithigiuaky\\models\\nttmcustormer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{86E6739B-E33B-44A7-A25F-B0A916A608C7}|Nttm_BaiThiGiuaKy\\Nttm_BaiThiGiuaKy.csproj|solutionrelative:nttm_baithigiuaky\\models\\nttmcustormer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{86E6739B-E33B-44A7-A25F-B0A916A608C7}|Nttm_BaiThiGiuaKy\\Nttm_BaiThiGiuaKy.csproj|D:\\ASPNET Mvc\\K22CNT4_NguyenThiTraMi_AspNet\\2210900041-Nguy\u1EC5n Th\u1ECB Tr\u00E0 Mi\\Nttm_BaiThiGiuaKy\\nttm_baithigiuaky\\views\\nttmcustormer\\nttmindex.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{86E6739B-E33B-44A7-A25F-B0A916A608C7}|Nttm_BaiThiGiuaKy\\Nttm_BaiThiGiuaKy.csproj|solutionrelative:nttm_baithigiuaky\\views\\nttmcustormer\\nttmindex.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{86E6739B-E33B-44A7-A25F-B0A916A608C7}|Nttm_BaiThiGiuaKy\\Nttm_BaiThiGiuaKy.csproj|D:\\ASPNET Mvc\\K22CNT4_NguyenThiTraMi_AspNet\\2210900041-Nguy\u1EC5n Th\u1ECB Tr\u00E0 Mi\\Nttm_BaiThiGiuaKy\\nttm_baithigiuaky\\views\\nttmcustormer\\nttmedit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{86E6739B-E33B-44A7-A25F-B0A916A608C7}|Nttm_BaiThiGiuaKy\\Nttm_BaiThiGiuaKy.csproj|solutionrelative:nttm_baithigiuaky\\views\\nttmcustormer\\nttmedit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{86E6739B-E33B-44A7-A25F-B0A916A608C7}|Nttm_BaiThiGiuaKy\\Nttm_BaiThiGiuaKy.csproj|D:\\ASPNET Mvc\\K22CNT4_NguyenThiTraMi_AspNet\\2210900041-Nguy\u1EC5n Th\u1ECB Tr\u00E0 Mi\\Nttm_BaiThiGiuaKy\\nttm_baithigiuaky\\views\\nttmcustormer\\nttmcreate.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{86E6739B-E33B-44A7-A25F-B0A916A608C7}|Nttm_BaiThiGiuaKy\\Nttm_BaiThiGiuaKy.csproj|solutionrelative:nttm_baithigiuaky\\views\\nttmcustormer\\nttmcreate.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "NttmCreate.cshtml",
+              "DocumentMoniker": "D:\\ASPNET Mvc\\K22CNT4_NguyenThiTraMi_AspNet\\2210900041-Nguy\u1EC5n Th\u1ECB Tr\u00E0 Mi\\Nttm_BaiThiGiuaKy\\Nttm_BaiThiGiuaKy\\Views\\NttmCustormer\\NttmCreate.cshtml",
+              "RelativeDocumentMoniker": "Nttm_BaiThiGiuaKy\\Views\\NttmCustormer\\NttmCreate.cshtml",
+              "ToolTip": "D:\\ASPNET Mvc\\K22CNT4_NguyenThiTraMi_AspNet\\2210900041-Nguy\u1EC5n Th\u1ECB Tr\u00E0 Mi\\Nttm_BaiThiGiuaKy\\Nttm_BaiThiGiuaKy\\Views\\NttmCustormer\\NttmCreate.cshtml",
+              "RelativeToolTip": "Nttm_BaiThiGiuaKy\\Views\\NttmCustormer\\NttmCreate.cshtml",
+              "ViewState": "AQIAADAAAAAAAAAAAAAAAEEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-29T08:13:13.049Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "NttmEdit.cshtml",
+              "DocumentMoniker": "D:\\ASPNET Mvc\\K22CNT4_NguyenThiTraMi_AspNet\\2210900041-Nguy\u1EC5n Th\u1ECB Tr\u00E0 Mi\\Nttm_BaiThiGiuaKy\\Nttm_BaiThiGiuaKy\\Views\\NttmCustormer\\NttmEdit.cshtml",
+              "RelativeDocumentMoniker": "Nttm_BaiThiGiuaKy\\Views\\NttmCustormer\\NttmEdit.cshtml",
+              "ToolTip": "D:\\ASPNET Mvc\\K22CNT4_NguyenThiTraMi_AspNet\\2210900041-Nguy\u1EC5n Th\u1ECB Tr\u00E0 Mi\\Nttm_BaiThiGiuaKy\\Nttm_BaiThiGiuaKy\\Views\\NttmCustormer\\NttmEdit.cshtml",
+              "RelativeToolTip": "Nttm_BaiThiGiuaKy\\Views\\NttmCustormer\\NttmEdit.cshtml",
+              "ViewState": "AQIAACoAAAAAAAAAAAAAAD8AAAAOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-29T08:06:16.968Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "NttmIndex.cshtml",
+              "DocumentMoniker": "D:\\ASPNET Mvc\\K22CNT4_NguyenThiTraMi_AspNet\\2210900041-Nguy\u1EC5n Th\u1ECB Tr\u00E0 Mi\\Nttm_BaiThiGiuaKy\\Nttm_BaiThiGiuaKy\\Views\\NttmCustormer\\NttmIndex.cshtml",
+              "RelativeDocumentMoniker": "Nttm_BaiThiGiuaKy\\Views\\NttmCustormer\\NttmIndex.cshtml",
+              "ToolTip": "D:\\ASPNET Mvc\\K22CNT4_NguyenThiTraMi_AspNet\\2210900041-Nguy\u1EC5n Th\u1ECB Tr\u00E0 Mi\\Nttm_BaiThiGiuaKy\\Nttm_BaiThiGiuaKy\\Views\\NttmCustormer\\NttmIndex.cshtml",
+              "RelativeToolTip": "Nttm_BaiThiGiuaKy\\Views\\NttmCustormer\\NttmIndex.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAD8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-29T08:00:43.01Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "NttmCustormerController.cs",
+              "DocumentMoniker": "D:\\ASPNET Mvc\\K22CNT4_NguyenThiTraMi_AspNet\\2210900041-Nguy\u1EC5n Th\u1ECB Tr\u00E0 Mi\\Nttm_BaiThiGiuaKy\\Nttm_BaiThiGiuaKy\\Controllers\\NttmCustormerController.cs",
+              "RelativeDocumentMoniker": "Nttm_BaiThiGiuaKy\\Controllers\\NttmCustormerController.cs",
+              "ToolTip": "D:\\ASPNET Mvc\\K22CNT4_NguyenThiTraMi_AspNet\\2210900041-Nguy\u1EC5n Th\u1ECB Tr\u00E0 Mi\\Nttm_BaiThiGiuaKy\\Nttm_BaiThiGiuaKy\\Controllers\\NttmCustormerController.cs",
+              "RelativeToolTip": "Nttm_BaiThiGiuaKy\\Controllers\\NttmCustormerController.cs",
+              "ViewState": "AQIAAC8AAAAAAAAAAAA9wFsAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-29T07:58:58.551Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "NttmCustormer.cs",
+              "DocumentMoniker": "D:\\ASPNET Mvc\\K22CNT4_NguyenThiTraMi_AspNet\\2210900041-Nguy\u1EC5n Th\u1ECB Tr\u00E0 Mi\\Nttm_BaiThiGiuaKy\\Nttm_BaiThiGiuaKy\\Models\\NttmCustormer.cs",
+              "RelativeDocumentMoniker": "Nttm_BaiThiGiuaKy\\Models\\NttmCustormer.cs",
+              "ToolTip": "D:\\ASPNET Mvc\\K22CNT4_NguyenThiTraMi_AspNet\\2210900041-Nguy\u1EC5n Th\u1ECB Tr\u00E0 Mi\\Nttm_BaiThiGiuaKy\\Nttm_BaiThiGiuaKy\\Models\\NttmCustormer.cs",
+              "RelativeToolTip": "Nttm_BaiThiGiuaKy\\Models\\NttmCustormer.cs",
+              "ViewState": "AQIAAAQAAAAAAAAAAAAqwA8AAAA9AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-29T07:57:52.12Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "D:\\ASPNET Mvc\\K22CNT4_NguyenThiTraMi_AspNet\\2210900041-Nguy\u1EC5n Th\u1ECB Tr\u00E0 Mi\\Nttm_BaiThiGiuaKy\\Nttm_BaiThiGiuaKy\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Nttm_BaiThiGiuaKy\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "D:\\ASPNET Mvc\\K22CNT4_NguyenThiTraMi_AspNet\\2210900041-Nguy\u1EC5n Th\u1ECB Tr\u00E0 Mi\\Nttm_BaiThiGiuaKy\\Nttm_BaiThiGiuaKy\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Nttm_BaiThiGiuaKy\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAAB4AAAAOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-29T07:56:28.401Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

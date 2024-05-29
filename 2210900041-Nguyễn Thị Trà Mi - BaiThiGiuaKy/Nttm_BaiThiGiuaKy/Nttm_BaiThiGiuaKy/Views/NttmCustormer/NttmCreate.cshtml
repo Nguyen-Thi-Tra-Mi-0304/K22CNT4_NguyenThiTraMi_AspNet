@@ -1,0 +1,65 @@
+﻿@model Nttm_BaiThiGiuaKy.Models.NttmCustormer
+
+@{
+    ViewBag.Title = "NttmCreate";
+}
+
+<h2>NttmCreate: Thông tin chi tiết khách hàng</h2>
+
+<div>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Nttm2210900041_CustId)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Nttm2210900041_CustId)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Nttm_FullName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Nttm_FullName)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Nttm_Address)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Nttm_Address)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Nttm_Email)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Nttm_Email)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Nttm_Phone)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Nttm_Phone)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Nttm_Balance)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Nttm_Balance)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "NttmEdit", new { id = Model.Nttm2210900041_CustId  }) |
+    @Html.ActionLink("Back to List", "NttmIndex")
+</p>

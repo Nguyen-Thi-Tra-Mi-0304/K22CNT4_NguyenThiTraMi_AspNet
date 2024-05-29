@@ -1,0 +1,63 @@
+﻿@model IEnumerable<Nttm_BaiThiGiuaKy.Models.NttmCustormer>
+
+@{
+    ViewBag.Title = "NttmIndex: danh sách khách hàng";
+}
+
+<h2>NttmIndex: danh sách khách hàng</h2>
+
+<p>
+    @Html.ActionLink("Create New", "NttmDetail")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.Nttm2210900041_CustId)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Nttm_FullName)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Nttm_Address)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Nttm_Email)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Nttm_Phone)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Nttm_Balance)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.Nttm2210900041_CustId)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Nttm_FullName)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Nttm_Address)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Nttm_Email)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Nttm_Phone)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Nttm_Balance)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "NttmEdit", new { id = item.Nttm2210900041_CustId}) |
+            @Html.ActionLink("Details", "NttmCreate", new { id = item.Nttm2210900041_CustId }) |
+            @Html.ActionLink("Delete", "NttmDelete", new { id = item.Nttm2210900041_CustId })
+        </td>
+    </tr>
+}
+
+</table>

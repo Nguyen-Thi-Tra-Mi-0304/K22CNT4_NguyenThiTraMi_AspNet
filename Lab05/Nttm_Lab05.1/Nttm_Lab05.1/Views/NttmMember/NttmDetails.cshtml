@@ -1,0 +1,61 @@
+﻿@model Nttm_Lab05._1.Models.NttmMember
+
+@{
+    ViewBag.Title = "Chi tiết thành viên";
+}
+
+<h2>Chi tiết thành viên</h2>
+
+<div>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            Mã số
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Id)
+        </dd>
+        <dt>
+            Tên đăng nhập
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.NttmUserName)
+        </dd>
+
+        <dt>
+           Họ và tên
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.NttmFullName)
+        </dd>
+
+        <dt>
+           Mật khẩu
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.NttmPassWord)
+        </dd>
+
+        <dt>
+            Tuổi
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.NttmAge)
+        </dd>
+
+        <dt>
+            Email
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.NttmEmail)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Quay lại", "NttmCreateOne")
+</p>
