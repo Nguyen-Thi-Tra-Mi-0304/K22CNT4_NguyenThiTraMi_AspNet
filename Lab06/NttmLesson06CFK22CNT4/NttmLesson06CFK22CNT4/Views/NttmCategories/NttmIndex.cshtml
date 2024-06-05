@@ -1,0 +1,34 @@
+﻿@model IEnumerable<NttmLesson06CFK22CNT4.Models.NttmCategory>
+
+@{
+    ViewBag.Title = "NttmIndex";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>NttmIndex</h2>
+
+<p>
+    @Html.ActionLink("Create New", "NttmCreate")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.NttmCategoryName)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.NttmCategoryName)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id=item.NttmId }) |
+            @Html.ActionLink("Details", "Details", new { id=item.NttmId }) |
+            @Html.ActionLink("Delete", "Delete", new { id=item.NttmId })
+        </td>
+    </tr>
+}
+
+</table>

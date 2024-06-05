@@ -1,0 +1,75 @@
+﻿@model NttmLesson06CFK22CNT4.Models.NtmBook
+
+@{
+    ViewBag.Title = "Details";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>NtmBook</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.NttmBookId)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.NttmBookId)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.NttmTitle)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.NttmTitle)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.NttmAuthor)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.NttmAuthor)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.NttmYear)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.NttmYear)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.NttmPublisher)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.NttmPublisher)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.NttmPicture)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.NttmPicture)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.NttmCategoryId)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.NttmCategoryId)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.NttmId }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

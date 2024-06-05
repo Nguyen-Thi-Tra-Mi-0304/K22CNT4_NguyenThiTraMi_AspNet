@@ -1,0 +1,177 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\ASPNET Mvc\\K22CNT4_NguyenThiTraMi_AspNet\\Lab06\\NttmLesson06CFK22CNT4\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{AB73FB78-D4E7-4F21-8926-C8D15C4046E7}|NttmLesson06CFK22CNT4\\NttmLesson06CFK22CNT4.csproj|D:\\ASPNET Mvc\\K22CNT4_NguyenThiTraMi_AspNet\\Lab06\\NttmLesson06CFK22CNT4\\nttmlesson06cfk22cnt4\\controllers\\nttmcategoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AB73FB78-D4E7-4F21-8926-C8D15C4046E7}|NttmLesson06CFK22CNT4\\NttmLesson06CFK22CNT4.csproj|solutionrelative:nttmlesson06cfk22cnt4\\controllers\\nttmcategoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB73FB78-D4E7-4F21-8926-C8D15C4046E7}|NttmLesson06CFK22CNT4\\NttmLesson06CFK22CNT4.csproj|d:\\aspnet mvc\\k22cnt4_nguyenthitrami_aspnet\\lab06\\nttmlesson06cfk22cnt4\\nttmlesson06cfk22cnt4\\controllers\\ntmbookscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AB73FB78-D4E7-4F21-8926-C8D15C4046E7}|NttmLesson06CFK22CNT4\\NttmLesson06CFK22CNT4.csproj|solutionrelative:nttmlesson06cfk22cnt4\\controllers\\ntmbookscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB73FB78-D4E7-4F21-8926-C8D15C4046E7}|NttmLesson06CFK22CNT4\\NttmLesson06CFK22CNT4.csproj|D:\\ASPNET Mvc\\K22CNT4_NguyenThiTraMi_AspNet\\Lab06\\NttmLesson06CFK22CNT4\\nttmlesson06cfk22cnt4\\models\\nttmbookstore.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AB73FB78-D4E7-4F21-8926-C8D15C4046E7}|NttmLesson06CFK22CNT4\\NttmLesson06CFK22CNT4.csproj|solutionrelative:nttmlesson06cfk22cnt4\\models\\nttmbookstore.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB73FB78-D4E7-4F21-8926-C8D15C4046E7}|NttmLesson06CFK22CNT4\\NttmLesson06CFK22CNT4.csproj|D:\\ASPNET Mvc\\K22CNT4_NguyenThiTraMi_AspNet\\Lab06\\NttmLesson06CFK22CNT4\\nttmlesson06cfk22cnt4\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{AB73FB78-D4E7-4F21-8926-C8D15C4046E7}|NttmLesson06CFK22CNT4\\NttmLesson06CFK22CNT4.csproj|solutionrelative:nttmlesson06cfk22cnt4\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB73FB78-D4E7-4F21-8926-C8D15C4046E7}|NttmLesson06CFK22CNT4\\NttmLesson06CFK22CNT4.csproj|d:\\aspnet mvc\\k22cnt4_nguyenthitrami_aspnet\\lab06\\nttmlesson06cfk22cnt4\\nttmlesson06cfk22cnt4\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AB73FB78-D4E7-4F21-8926-C8D15C4046E7}|NttmLesson06CFK22CNT4\\NttmLesson06CFK22CNT4.csproj|solutionrelative:nttmlesson06cfk22cnt4\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB73FB78-D4E7-4F21-8926-C8D15C4046E7}|NttmLesson06CFK22CNT4\\NttmLesson06CFK22CNT4.csproj|d:\\aspnet mvc\\k22cnt4_nguyenthitrami_aspnet\\lab06\\nttmlesson06cfk22cnt4\\nttmlesson06cfk22cnt4\\views\\nttmcategories\\nttmcreate.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AB73FB78-D4E7-4F21-8926-C8D15C4046E7}|NttmLesson06CFK22CNT4\\NttmLesson06CFK22CNT4.csproj|solutionrelative:nttmlesson06cfk22cnt4\\views\\nttmcategories\\nttmcreate.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB73FB78-D4E7-4F21-8926-C8D15C4046E7}|NttmLesson06CFK22CNT4\\NttmLesson06CFK22CNT4.csproj|d:\\aspnet mvc\\k22cnt4_nguyenthitrami_aspnet\\lab06\\nttmlesson06cfk22cnt4\\nttmlesson06cfk22cnt4\\views\\nttmcategories\\nttmindex.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AB73FB78-D4E7-4F21-8926-C8D15C4046E7}|NttmLesson06CFK22CNT4\\NttmLesson06CFK22CNT4.csproj|solutionrelative:nttmlesson06cfk22cnt4\\views\\nttmcategories\\nttmindex.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB73FB78-D4E7-4F21-8926-C8D15C4046E7}|NttmLesson06CFK22CNT4\\NttmLesson06CFK22CNT4.csproj|D:\\ASPNET Mvc\\K22CNT4_NguyenThiTraMi_AspNet\\Lab06\\NttmLesson06CFK22CNT4\\nttmlesson06cfk22cnt4\\models\\ntmbook.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AB73FB78-D4E7-4F21-8926-C8D15C4046E7}|NttmLesson06CFK22CNT4\\NttmLesson06CFK22CNT4.csproj|solutionrelative:nttmlesson06cfk22cnt4\\models\\ntmbook.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB73FB78-D4E7-4F21-8926-C8D15C4046E7}|NttmLesson06CFK22CNT4\\NttmLesson06CFK22CNT4.csproj|D:\\ASPNET Mvc\\K22CNT4_NguyenThiTraMi_AspNet\\Lab06\\NttmLesson06CFK22CNT4\\nttmlesson06cfk22cnt4\\models\\nttmcategory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AB73FB78-D4E7-4F21-8926-C8D15C4046E7}|NttmLesson06CFK22CNT4\\NttmLesson06CFK22CNT4.csproj|solutionrelative:nttmlesson06cfk22cnt4\\models\\nttmcategory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "NtmBooksController.cs",
+              "DocumentMoniker": "D:\\ASPNET Mvc\\K22CNT4_NguyenThiTraMi_AspNet\\Lab06\\NttmLesson06CFK22CNT4\\NttmLesson06CFK22CNT4\\Controllers\\NtmBooksController.cs",
+              "RelativeDocumentMoniker": "NttmLesson06CFK22CNT4\\Controllers\\NtmBooksController.cs",
+              "ToolTip": "D:\\ASPNET Mvc\\K22CNT4_NguyenThiTraMi_AspNet\\Lab06\\NttmLesson06CFK22CNT4\\NttmLesson06CFK22CNT4\\Controllers\\NtmBooksController.cs",
+              "RelativeToolTip": "NttmLesson06CFK22CNT4\\Controllers\\NtmBooksController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-05T13:50:49.574Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "NttmIndex.cshtml",
+              "DocumentMoniker": "D:\\ASPNET Mvc\\K22CNT4_NguyenThiTraMi_AspNet\\Lab06\\NttmLesson06CFK22CNT4\\NttmLesson06CFK22CNT4\\Views\\NttmCategories\\NttmIndex.cshtml",
+              "RelativeDocumentMoniker": "NttmLesson06CFK22CNT4\\Views\\NttmCategories\\NttmIndex.cshtml",
+              "ToolTip": "D:\\ASPNET Mvc\\K22CNT4_NguyenThiTraMi_AspNet\\Lab06\\NttmLesson06CFK22CNT4\\NttmLesson06CFK22CNT4\\Views\\NttmCategories\\NttmIndex.cshtml",
+              "RelativeToolTip": "NttmLesson06CFK22CNT4\\Views\\NttmCategories\\NttmIndex.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-05T13:36:25.328Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "NttmCreate.cshtml",
+              "DocumentMoniker": "D:\\ASPNET Mvc\\K22CNT4_NguyenThiTraMi_AspNet\\Lab06\\NttmLesson06CFK22CNT4\\NttmLesson06CFK22CNT4\\Views\\NttmCategories\\NttmCreate.cshtml",
+              "RelativeDocumentMoniker": "NttmLesson06CFK22CNT4\\Views\\NttmCategories\\NttmCreate.cshtml",
+              "ToolTip": "D:\\ASPNET Mvc\\K22CNT4_NguyenThiTraMi_AspNet\\Lab06\\NttmLesson06CFK22CNT4\\NttmLesson06CFK22CNT4\\Views\\NttmCategories\\NttmCreate.cshtml",
+              "RelativeToolTip": "NttmLesson06CFK22CNT4\\Views\\NttmCategories\\NttmCreate.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-05T13:42:29.781Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "D:\\ASPNET Mvc\\K22CNT4_NguyenThiTraMi_AspNet\\Lab06\\NttmLesson06CFK22CNT4\\NttmLesson06CFK22CNT4\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "NttmLesson06CFK22CNT4\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "D:\\ASPNET Mvc\\K22CNT4_NguyenThiTraMi_AspNet\\Lab06\\NttmLesson06CFK22CNT4\\NttmLesson06CFK22CNT4\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "NttmLesson06CFK22CNT4\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABcAAAA0AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-05T13:29:30.03Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Web.config",
+              "DocumentMoniker": "D:\\ASPNET Mvc\\K22CNT4_NguyenThiTraMi_AspNet\\Lab06\\NttmLesson06CFK22CNT4\\NttmLesson06CFK22CNT4\\Web.config",
+              "RelativeDocumentMoniker": "NttmLesson06CFK22CNT4\\Web.config",
+              "ToolTip": "D:\\ASPNET Mvc\\K22CNT4_NguyenThiTraMi_AspNet\\Lab06\\NttmLesson06CFK22CNT4\\NttmLesson06CFK22CNT4\\Web.config",
+              "RelativeToolTip": "NttmLesson06CFK22CNT4\\Web.config",
+              "ViewState": "AQIAADMAAAAAAAAAAAAAAEUAAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2024-06-05T10:15:29.953Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "NttmCategoriesController.cs",
+              "DocumentMoniker": "D:\\ASPNET Mvc\\K22CNT4_NguyenThiTraMi_AspNet\\Lab06\\NttmLesson06CFK22CNT4\\NttmLesson06CFK22CNT4\\Controllers\\NttmCategoriesController.cs",
+              "RelativeDocumentMoniker": "NttmLesson06CFK22CNT4\\Controllers\\NttmCategoriesController.cs",
+              "ToolTip": "D:\\ASPNET Mvc\\K22CNT4_NguyenThiTraMi_AspNet\\Lab06\\NttmLesson06CFK22CNT4\\NttmLesson06CFK22CNT4\\Controllers\\NttmCategoriesController.cs",
+              "RelativeToolTip": "NttmLesson06CFK22CNT4\\Controllers\\NttmCategoriesController.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAA0AAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-05T10:37:04.719Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "NttmBookStore.cs",
+              "DocumentMoniker": "D:\\ASPNET Mvc\\K22CNT4_NguyenThiTraMi_AspNet\\Lab06\\NttmLesson06CFK22CNT4\\NttmLesson06CFK22CNT4\\Models\\NttmBookStore.cs",
+              "RelativeDocumentMoniker": "NttmLesson06CFK22CNT4\\Models\\NttmBookStore.cs",
+              "ToolTip": "D:\\ASPNET Mvc\\K22CNT4_NguyenThiTraMi_AspNet\\Lab06\\NttmLesson06CFK22CNT4\\NttmLesson06CFK22CNT4\\Models\\NttmBookStore.cs",
+              "RelativeToolTip": "NttmLesson06CFK22CNT4\\Models\\NttmBookStore.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAABEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-05T10:12:19.99Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "NtmBook.cs",
+              "DocumentMoniker": "D:\\ASPNET Mvc\\K22CNT4_NguyenThiTraMi_AspNet\\Lab06\\NttmLesson06CFK22CNT4\\NttmLesson06CFK22CNT4\\Models\\NtmBook.cs",
+              "RelativeDocumentMoniker": "NttmLesson06CFK22CNT4\\Models\\NtmBook.cs",
+              "ToolTip": "D:\\ASPNET Mvc\\K22CNT4_NguyenThiTraMi_AspNet\\Lab06\\NttmLesson06CFK22CNT4\\NttmLesson06CFK22CNT4\\Models\\NtmBook.cs",
+              "RelativeToolTip": "NttmLesson06CFK22CNT4\\Models\\NtmBook.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABcAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-05T10:08:40.587Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "NttmCategory.cs",
+              "DocumentMoniker": "D:\\ASPNET Mvc\\K22CNT4_NguyenThiTraMi_AspNet\\Lab06\\NttmLesson06CFK22CNT4\\NttmLesson06CFK22CNT4\\Models\\NttmCategory.cs",
+              "RelativeDocumentMoniker": "NttmLesson06CFK22CNT4\\Models\\NttmCategory.cs",
+              "ToolTip": "D:\\ASPNET Mvc\\K22CNT4_NguyenThiTraMi_AspNet\\Lab06\\NttmLesson06CFK22CNT4\\NttmLesson06CFK22CNT4\\Models\\NttmCategory.cs",
+              "RelativeToolTip": "NttmLesson06CFK22CNT4\\Models\\NttmCategory.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-05T10:06:56.406Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

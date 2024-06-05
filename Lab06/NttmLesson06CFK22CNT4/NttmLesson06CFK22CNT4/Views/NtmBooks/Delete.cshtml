@@ -1,0 +1,81 @@
+﻿@model NttmLesson06CFK22CNT4.Models.NtmBook
+
+@{
+    ViewBag.Title = "Delete";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Delete</h2>
+
+<h3>Are you sure you want to delete this?</h3>
+<div>
+    <h4>NtmBook</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.NttmBookId)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.NttmBookId)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.NttmTitle)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.NttmTitle)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.NttmAuthor)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.NttmAuthor)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.NttmYear)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.NttmYear)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.NttmPublisher)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.NttmPublisher)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.NttmPicture)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.NttmPicture)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.NttmCategoryId)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.NttmCategoryId)
+        </dd>
+
+    </dl>
+
+    @using (Html.BeginForm()) {
+        @Html.AntiForgeryToken()
+
+        <div class="form-actions no-color">
+            <input type="submit" value="Delete" class="btn btn-default" /> |
+            @Html.ActionLink("Back to List", "Index")
+        </div>
+    }
+</div>

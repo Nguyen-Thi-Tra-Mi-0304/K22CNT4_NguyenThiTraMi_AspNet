@@ -1,0 +1,70 @@
+﻿@model IEnumerable<NttmLesson06CFK22CNT4.Models.NtmBook>
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Index</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.NttmBookId)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.NttmTitle)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.NttmAuthor)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.NttmYear)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.NttmPublisher)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.NttmPicture)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.NttmCategoryId)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.NttmBookId)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.NttmTitle)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.NttmAuthor)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.NttmYear)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.NttmPublisher)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.NttmPicture)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.NttmCategoryId)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id=item.NttmId }) |
+            @Html.ActionLink("Details", "Details", new { id=item.NttmId }) |
+            @Html.ActionLink("Delete", "Delete", new { id=item.NttmId })
+        </td>
+    </tr>
+}
+
+</table>
