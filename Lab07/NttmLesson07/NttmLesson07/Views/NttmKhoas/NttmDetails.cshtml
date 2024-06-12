@@ -1,0 +1,34 @@
+﻿@model NttmLesson07.Models.nttmKhoa
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>nttmKhoa</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.nttmTenKH)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.nttmTenKH)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.nttmTrangThai)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.nttmTrangThai)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "NttmEdit", new { id = Model.nttmMaKH }) |
+    @Html.ActionLink("Back to List", "NttmIndex")
+</p>

@@ -1,0 +1,74 @@
+﻿@model NttmLesson07.Models.nttmSinhVien
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>nttmSinhVien</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.NttmHoSV)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.NttmHoSV)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.NttmTenSV)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.NttmTenSV)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.NttmPhai)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.NttmPhai)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.NttmEmail)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.NttmEmail)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.NttmPhone)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.NttmPhone)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.NttmTrangThai)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.NttmTrangThai)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.nttmKhoa.nttmTenKH)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.nttmKhoa.nttmTenKH)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "NttmEdit", new { id = Model.NttmMaSV }) |
+    @Html.ActionLink("Back to List", "NttmIndex")
+</p>

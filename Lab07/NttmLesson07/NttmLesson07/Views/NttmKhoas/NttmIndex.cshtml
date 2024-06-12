@@ -1,0 +1,39 @@
+﻿@model IEnumerable<NttmLesson07.Models.nttmKhoa>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+<p>
+    @Html.ActionLink("NTTM: Create New", "NttmCreate")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.nttmTenKH)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.nttmTrangThai)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.nttmTenKH)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.nttmTrangThai)
+        </td>
+        <td>
+            @Html.ActionLink("NTTM: Edit", "NttmEdit", new { id=item.nttmMaKH }) |
+            @Html.ActionLink("NTTM: Details", "NttmDetails", new { id=item.nttmMaKH }) |
+            @Html.ActionLink("NTTM: Delete", "NttmDelete", new { id=item.nttmMaKH })
+        </td>
+    </tr>
+}
+
+</table>

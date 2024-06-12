@@ -1,0 +1,69 @@
+﻿@model IEnumerable<NttmLesson07.Models.nttmSinhVien>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+<p>
+    @Html.ActionLink("NTTM: Create New", "NttmCreate")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.NttmHoSV)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.NttmTenSV)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.NttmPhai)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.NttmEmail)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.NttmPhone)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.NttmTrangThai)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.nttmKhoa.nttmTenKH)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.NttmHoSV)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.NttmTenSV)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.NttmPhai)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.NttmEmail)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.NttmPhone)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.NttmTrangThai)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.nttmKhoa.nttmTenKH)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "NttmEdit", new { id=item.NttmMaSV }) |
+            @Html.ActionLink("Details", "NttmDetails", new { id=item.NttmMaSV }) |
+            @Html.ActionLink("Delete", "NttmDelete", new { id=item.NttmMaSV })
+        </td>
+    </tr>
+}
+
+</table>

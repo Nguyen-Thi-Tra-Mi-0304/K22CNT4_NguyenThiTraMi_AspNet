@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="NttmK22CNT4Lesson07DbModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="nttmKhoa">
+    <Key>
+      <PropertyRef Name="nttmMaKH" />
+    </Key>
+    <Property Name="nttmMaKH" Type="nchar" MaxLength="10" Nullable="false" />
+    <Property Name="nttmTenKH" Type="nvarchar" MaxLength="50" />
+    <Property Name="nttmTrangThai" Type="bit" />
+  </EntityType>
+  <EntityType Name="nttmSinhVien">
+    <Key>
+      <PropertyRef Name="NttmMaSV" />
+    </Key>
+    <Property Name="NttmMaSV" Type="nchar" MaxLength="10" Nullable="false" />
+    <Property Name="NttmHoSV" Type="nvarchar" MaxLength="50" />
+    <Property Name="NttmTenSV" Type="nvarchar" MaxLength="50" />
+    <Property Name="NttmPhai" Type="bit" />
+    <Property Name="NttmEmail" Type="nvarchar" MaxLength="50" />
+    <Property Name="NttmPhone" Type="nvarchar" MaxLength="50" />
+    <Property Name="NttmMaKH" Type="nchar" MaxLength="10" />
+    <Property Name="NttmTrangThai" Type="bit" />
+  </EntityType>
+  <Association Name="FK_nttmSinhVien_nttmKhoa">
+    <End Role="nttmKhoa" Type="Self.nttmKhoa" Multiplicity="0..1" />
+    <End Role="nttmSinhVien" Type="Self.nttmSinhVien" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="nttmKhoa">
+        <PropertyRef Name="nttmMaKH" />
+      </Principal>
+      <Dependent Role="nttmSinhVien">
+        <PropertyRef Name="NttmMaKH" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="NttmK22CNT4Lesson07DbModelStoreContainer">
+    <EntitySet Name="nttmKhoa" EntityType="Self.nttmKhoa" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="nttmSinhVien" EntityType="Self.nttmSinhVien" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="FK_nttmSinhVien_nttmKhoa" Association="Self.FK_nttmSinhVien_nttmKhoa">
+      <End Role="nttmKhoa" EntitySet="nttmKhoa" />
+      <End Role="nttmSinhVien" EntitySet="nttmSinhVien" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

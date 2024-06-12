@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="NttmK22CNT4Lesson07DbModelStoreContainer" CdmEntityContainer="NttmK22CNT4Lesson07DbEntities1">
+    <EntitySetMapping Name="nttmKhoas">
+      <EntityTypeMapping TypeName="NttmK22CNT4Lesson07DbModel.nttmKhoa">
+        <MappingFragment StoreEntitySet="nttmKhoa">
+          <ScalarProperty Name="nttmMaKH" ColumnName="nttmMaKH" />
+          <ScalarProperty Name="nttmTenKH" ColumnName="nttmTenKH" />
+          <ScalarProperty Name="nttmTrangThai" ColumnName="nttmTrangThai" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="nttmSinhViens">
+      <EntityTypeMapping TypeName="NttmK22CNT4Lesson07DbModel.nttmSinhVien">
+        <MappingFragment StoreEntitySet="nttmSinhVien">
+          <ScalarProperty Name="NttmMaSV" ColumnName="NttmMaSV" />
+          <ScalarProperty Name="NttmHoSV" ColumnName="NttmHoSV" />
+          <ScalarProperty Name="NttmTenSV" ColumnName="NttmTenSV" />
+          <ScalarProperty Name="NttmPhai" ColumnName="NttmPhai" />
+          <ScalarProperty Name="NttmEmail" ColumnName="NttmEmail" />
+          <ScalarProperty Name="NttmPhone" ColumnName="NttmPhone" />
+          <ScalarProperty Name="NttmMaKH" ColumnName="NttmMaKH" />
+          <ScalarProperty Name="NttmTrangThai" ColumnName="NttmTrangThai" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

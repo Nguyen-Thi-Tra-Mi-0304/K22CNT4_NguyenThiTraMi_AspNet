@@ -1,0 +1,109 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\ASPNET Mvc\\K22CNT4_NguyenThiTraMi_AspNet\\Lab07\\NttmLesson07\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{335B481F-888F-4970-AB7D-1A7E89A5048A}|NttmLesson07\\NttmLesson07.csproj|d:\\aspnet mvc\\k22cnt4_nguyenthitrami_aspnet\\lab07\\nttmlesson07\\nttmlesson07\\views\\nttmsinhviens\\nttmindex.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{335B481F-888F-4970-AB7D-1A7E89A5048A}|NttmLesson07\\NttmLesson07.csproj|solutionrelative:nttmlesson07\\views\\nttmsinhviens\\nttmindex.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{335B481F-888F-4970-AB7D-1A7E89A5048A}|NttmLesson07\\NttmLesson07.csproj|d:\\aspnet mvc\\k22cnt4_nguyenthitrami_aspnet\\lab07\\nttmlesson07\\nttmlesson07\\views\\nttmsinhviens\\nttmcreate.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{335B481F-888F-4970-AB7D-1A7E89A5048A}|NttmLesson07\\NttmLesson07.csproj|solutionrelative:nttmlesson07\\views\\nttmsinhviens\\nttmcreate.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{335B481F-888F-4970-AB7D-1A7E89A5048A}|NttmLesson07\\NttmLesson07.csproj|d:\\aspnet mvc\\k22cnt4_nguyenthitrami_aspnet\\lab07\\nttmlesson07\\nttmlesson07\\views\\nttmsinhviens\\nttmdelete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{335B481F-888F-4970-AB7D-1A7E89A5048A}|NttmLesson07\\NttmLesson07.csproj|solutionrelative:nttmlesson07\\views\\nttmsinhviens\\nttmdelete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{335B481F-888F-4970-AB7D-1A7E89A5048A}|NttmLesson07\\NttmLesson07.csproj|d:\\aspnet mvc\\k22cnt4_nguyenthitrami_aspnet\\lab07\\nttmlesson07\\nttmlesson07\\controllers\\nttmsinhvienscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{335B481F-888F-4970-AB7D-1A7E89A5048A}|NttmLesson07\\NttmLesson07.csproj|solutionrelative:nttmlesson07\\controllers\\nttmsinhvienscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{335B481F-888F-4970-AB7D-1A7E89A5048A}|NttmLesson07\\NttmLesson07.csproj|d:\\aspnet mvc\\k22cnt4_nguyenthitrami_aspnet\\lab07\\nttmlesson07\\nttmlesson07\\controllers\\nttmkhoascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{335B481F-888F-4970-AB7D-1A7E89A5048A}|NttmLesson07\\NttmLesson07.csproj|solutionrelative:nttmlesson07\\controllers\\nttmkhoascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "NttmCreate.cshtml",
+              "DocumentMoniker": "D:\\ASPNET Mvc\\K22CNT4_NguyenThiTraMi_AspNet\\Lab07\\NttmLesson07\\NttmLesson07\\Views\\NttmSinhViens\\NttmCreate.cshtml",
+              "RelativeDocumentMoniker": "NttmLesson07\\Views\\NttmSinhViens\\NttmCreate.cshtml",
+              "ToolTip": "D:\\ASPNET Mvc\\K22CNT4_NguyenThiTraMi_AspNet\\Lab07\\NttmLesson07\\NttmLesson07\\Views\\NttmSinhViens\\NttmCreate.cshtml",
+              "RelativeToolTip": "NttmLesson07\\Views\\NttmSinhViens\\NttmCreate.cshtml",
+              "ViewState": "AQIAAEsAAAAAAAAAAAAAAF4AAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-12T08:48:08.432Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "NttmDelete.cshtml",
+              "DocumentMoniker": "D:\\ASPNET Mvc\\K22CNT4_NguyenThiTraMi_AspNet\\Lab07\\NttmLesson07\\NttmLesson07\\Views\\NttmSinhViens\\NttmDelete.cshtml",
+              "RelativeDocumentMoniker": "NttmLesson07\\Views\\NttmSinhViens\\NttmDelete.cshtml",
+              "ToolTip": "D:\\ASPNET Mvc\\K22CNT4_NguyenThiTraMi_AspNet\\Lab07\\NttmLesson07\\NttmLesson07\\Views\\NttmSinhViens\\NttmDelete.cshtml",
+              "RelativeToolTip": "NttmLesson07\\Views\\NttmSinhViens\\NttmDelete.cshtml",
+              "ViewState": "AQIAADoAAAAAAAAAAAAAAEwAAAAyAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-12T08:47:58.81Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "NttmIndex.cshtml",
+              "DocumentMoniker": "D:\\ASPNET Mvc\\K22CNT4_NguyenThiTraMi_AspNet\\Lab07\\NttmLesson07\\NttmLesson07\\Views\\NttmSinhViens\\NttmIndex.cshtml",
+              "RelativeDocumentMoniker": "NttmLesson07\\Views\\NttmSinhViens\\NttmIndex.cshtml",
+              "ToolTip": "D:\\ASPNET Mvc\\K22CNT4_NguyenThiTraMi_AspNet\\Lab07\\NttmLesson07\\NttmLesson07\\Views\\NttmSinhViens\\NttmIndex.cshtml",
+              "RelativeToolTip": "NttmLesson07\\Views\\NttmSinhViens\\NttmIndex.cshtml",
+              "ViewState": "AQIAACwAAAAAAAAAAAAAAD8AAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-12T08:46:56.607Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "NttmSinhViensController.cs",
+              "DocumentMoniker": "D:\\ASPNET Mvc\\K22CNT4_NguyenThiTraMi_AspNet\\Lab07\\NttmLesson07\\NttmLesson07\\Controllers\\NttmSinhViensController.cs",
+              "RelativeDocumentMoniker": "NttmLesson07\\Controllers\\NttmSinhViensController.cs",
+              "ToolTip": "D:\\ASPNET Mvc\\K22CNT4_NguyenThiTraMi_AspNet\\Lab07\\NttmLesson07\\NttmLesson07\\Controllers\\NttmSinhViensController.cs",
+              "RelativeToolTip": "NttmLesson07\\Controllers\\NttmSinhViensController.cs",
+              "ViewState": "AQIAAGwAAAAAAAAAAAAAAHcAAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-12T08:44:14.073Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "NttmKhoasController.cs",
+              "DocumentMoniker": "D:\\ASPNET Mvc\\K22CNT4_NguyenThiTraMi_AspNet\\Lab07\\NttmLesson07\\NttmLesson07\\Controllers\\NttmKhoasController.cs",
+              "RelativeDocumentMoniker": "NttmLesson07\\Controllers\\NttmKhoasController.cs",
+              "ToolTip": "D:\\ASPNET Mvc\\K22CNT4_NguyenThiTraMi_AspNet\\Lab07\\NttmLesson07\\NttmLesson07\\Controllers\\NttmKhoasController.cs",
+              "RelativeToolTip": "NttmLesson07\\Controllers\\NttmKhoasController.cs",
+              "ViewState": "AQIAADoAAAAAAAAAAAAAADoAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-12T08:26:17.437Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

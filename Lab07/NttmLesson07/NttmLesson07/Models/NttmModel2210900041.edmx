@@ -1,0 +1,149 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+      <Schema Namespace="NttmK22CNT4Lesson07DbModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+        <EntityType Name="nttmKhoa">
+          <Key>
+            <PropertyRef Name="nttmMaKH" />
+          </Key>
+          <Property Name="nttmMaKH" Type="nchar" MaxLength="10" Nullable="false" />
+          <Property Name="nttmTenKH" Type="nvarchar" MaxLength="50" />
+          <Property Name="nttmTrangThai" Type="bit" />
+        </EntityType>
+        <EntityType Name="nttmSinhVien">
+          <Key>
+            <PropertyRef Name="NttmMaSV" />
+          </Key>
+          <Property Name="NttmMaSV" Type="nchar" MaxLength="10" Nullable="false" />
+          <Property Name="NttmHoSV" Type="nvarchar" MaxLength="50" />
+          <Property Name="NttmTenSV" Type="nvarchar" MaxLength="50" />
+          <Property Name="NttmPhai" Type="bit" />
+          <Property Name="NttmEmail" Type="nvarchar" MaxLength="50" />
+          <Property Name="NttmPhone" Type="nvarchar" MaxLength="50" />
+          <Property Name="NttmMaKH" Type="nchar" MaxLength="10" />
+          <Property Name="NttmTrangThai" Type="bit" />
+        </EntityType>
+        <Association Name="FK_nttmSinhVien_nttmKhoa">
+          <End Role="nttmKhoa" Type="Self.nttmKhoa" Multiplicity="0..1" />
+          <End Role="nttmSinhVien" Type="Self.nttmSinhVien" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="nttmKhoa">
+              <PropertyRef Name="nttmMaKH" />
+            </Principal>
+            <Dependent Role="nttmSinhVien">
+              <PropertyRef Name="NttmMaKH" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <EntityContainer Name="NttmK22CNT4Lesson07DbModelStoreContainer">
+          <EntitySet Name="nttmKhoa" EntityType="Self.nttmKhoa" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="nttmSinhVien" EntityType="Self.nttmSinhVien" Schema="dbo" store:Type="Tables" />
+          <AssociationSet Name="FK_nttmSinhVien_nttmKhoa" Association="Self.FK_nttmSinhVien_nttmKhoa">
+            <End Role="nttmKhoa" EntitySet="nttmKhoa" />
+            <End Role="nttmSinhVien" EntitySet="nttmSinhVien" />
+          </AssociationSet>
+        </EntityContainer>
+      </Schema>
+    </edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="NttmK22CNT4Lesson07DbModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+        <EntityType Name="nttmKhoa">
+          <Key>
+            <PropertyRef Name="nttmMaKH" />
+          </Key>
+          <Property Name="nttmMaKH" Type="String" MaxLength="10" FixedLength="true" Unicode="true" Nullable="false" />
+          <Property Name="nttmTenKH" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="nttmTrangThai" Type="Boolean" />
+          <NavigationProperty Name="nttmSinhViens" Relationship="Self.FK_nttmSinhVien_nttmKhoa" FromRole="nttmKhoa" ToRole="nttmSinhVien" />
+        </EntityType>
+        <EntityType Name="nttmSinhVien">
+          <Key>
+            <PropertyRef Name="NttmMaSV" />
+          </Key>
+          <Property Name="NttmMaSV" Type="String" MaxLength="10" FixedLength="true" Unicode="true" Nullable="false" />
+          <Property Name="NttmHoSV" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="NttmTenSV" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="NttmPhai" Type="Boolean" />
+          <Property Name="NttmEmail" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="NttmPhone" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="NttmMaKH" Type="String" MaxLength="10" FixedLength="true" Unicode="true" />
+          <Property Name="NttmTrangThai" Type="Boolean" />
+          <NavigationProperty Name="nttmKhoa" Relationship="Self.FK_nttmSinhVien_nttmKhoa" FromRole="nttmSinhVien" ToRole="nttmKhoa" />
+        </EntityType>
+        <Association Name="FK_nttmSinhVien_nttmKhoa">
+          <End Role="nttmKhoa" Type="Self.nttmKhoa" Multiplicity="0..1" />
+          <End Role="nttmSinhVien" Type="Self.nttmSinhVien" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="nttmKhoa">
+              <PropertyRef Name="nttmMaKH" />
+            </Principal>
+            <Dependent Role="nttmSinhVien">
+              <PropertyRef Name="NttmMaKH" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <EntityContainer Name="NttmK22CNT4Lesson07DbEntities1" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="nttmKhoas" EntityType="Self.nttmKhoa" />
+          <EntitySet Name="nttmSinhViens" EntityType="Self.nttmSinhVien" />
+          <AssociationSet Name="FK_nttmSinhVien_nttmKhoa" Association="Self.FK_nttmSinhVien_nttmKhoa">
+            <End Role="nttmKhoa" EntitySet="nttmKhoas" />
+            <End Role="nttmSinhVien" EntitySet="nttmSinhViens" />
+          </AssociationSet>
+        </EntityContainer>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="NttmK22CNT4Lesson07DbModelStoreContainer" CdmEntityContainer="NttmK22CNT4Lesson07DbEntities1">
+          <EntitySetMapping Name="nttmKhoas">
+            <EntityTypeMapping TypeName="NttmK22CNT4Lesson07DbModel.nttmKhoa">
+              <MappingFragment StoreEntitySet="nttmKhoa">
+                <ScalarProperty Name="nttmMaKH" ColumnName="nttmMaKH" />
+                <ScalarProperty Name="nttmTenKH" ColumnName="nttmTenKH" />
+                <ScalarProperty Name="nttmTrangThai" ColumnName="nttmTrangThai" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="nttmSinhViens">
+            <EntityTypeMapping TypeName="NttmK22CNT4Lesson07DbModel.nttmSinhVien">
+              <MappingFragment StoreEntitySet="nttmSinhVien">
+                <ScalarProperty Name="NttmMaSV" ColumnName="NttmMaSV" />
+                <ScalarProperty Name="NttmHoSV" ColumnName="NttmHoSV" />
+                <ScalarProperty Name="NttmTenSV" ColumnName="NttmTenSV" />
+                <ScalarProperty Name="NttmPhai" ColumnName="NttmPhai" />
+                <ScalarProperty Name="NttmEmail" ColumnName="NttmEmail" />
+                <ScalarProperty Name="NttmPhone" ColumnName="NttmPhone" />
+                <ScalarProperty Name="NttmMaKH" ColumnName="NttmMaKH" />
+                <ScalarProperty Name="NttmTrangThai" ColumnName="NttmTrangThai" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="true" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="true" />
+        <DesignerProperty Name="UseLegacyProvider" Value="false" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="None" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams></Diagrams>
+  </Designer>
+</edmx:Edmx>
