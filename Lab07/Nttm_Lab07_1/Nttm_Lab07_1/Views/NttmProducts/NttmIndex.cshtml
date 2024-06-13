@@ -1,0 +1,40 @@
+﻿@model IEnumerable<Nttm_Lab07_1.Models.NttmProduct>
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Index</h2>
+
+<p>
+    @Html.ActionLink("Create New", "NttmCreate")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.NttmProductName)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.NttmPrice)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.NttmProductName)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.NttmPrice)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "NttmEdit", new { id=item.NttmProductId }) |
+            @Html.ActionLink("Details", "NttmDetails", new { id=item.NttmProductId }) |
+            @Html.ActionLink("Delete", "NttmDelete", new { id=item.NttmProductId })
+        </td>
+    </tr>
+}
+
+</table>

@@ -1,0 +1,35 @@
+﻿@model Nttm_Lab07_1.Models.NttmProduct
+
+@{
+    ViewBag.Title = "Details";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>NttmProduct</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.NttmProductName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.NttmProductName)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.NttmPrice)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.NttmPrice)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "NttmEdit", new { id = Model.NttmProductId }) |
+    @Html.ActionLink("Back to List", "NttmIndex")
+</p>
