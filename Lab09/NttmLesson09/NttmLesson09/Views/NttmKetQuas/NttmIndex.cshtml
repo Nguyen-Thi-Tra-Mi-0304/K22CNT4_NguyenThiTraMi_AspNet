@@ -1,0 +1,51 @@
+﻿@model IEnumerable<NttmLesson09.Models.NttmKetQua>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+<p>
+    @Html.ActionLink("Create New", "NttmCreate")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.NttmDiem)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.NttmMonHoc.NttmMaMH)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.NttmSinhVien.NttmHoSV)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.NttmSinhVien.NttmTenSV)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.NttmDiem)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.NttmMonHoc.NttmMaMH)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.NttmSinhVien.NttmHoSV)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.NttmSinhVien.NttmTenSV)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "NttmEdit", new { id = item.NttmKQ.Trim() }) |
+            @Html.ActionLink("Details", "NttmDetails", new { id = item.NttmKQ.Trim() }) |
+            @Html.ActionLink("Delete", "NttmDelete", new { id = item.NttmKQ.Trim() })
+        </td>
+    </tr>
+}
+
+</table>

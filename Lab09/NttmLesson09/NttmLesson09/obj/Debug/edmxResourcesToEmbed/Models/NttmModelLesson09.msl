@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="NttmK22CNT4QLSinhVienModelStoreContainer" CdmEntityContainer="NttmK22CNT4QLSinhVienEntities3">
+    <EntitySetMapping Name="NttmKhoas">
+      <EntityTypeMapping TypeName="NttmK22CNT4QLSinhVienModel.NttmKhoa">
+        <MappingFragment StoreEntitySet="NttmKhoa">
+          <ScalarProperty Name="NttmMaKH" ColumnName="NttmMaKH" />
+          <ScalarProperty Name="NttmTenKH" ColumnName="NttmTenKH" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="NttmMonHocs">
+      <EntityTypeMapping TypeName="NttmK22CNT4QLSinhVienModel.NttmMonHoc">
+        <MappingFragment StoreEntitySet="NttmMonHoc">
+          <ScalarProperty Name="NttmMaMH" ColumnName="NttmMaMH" />
+          <ScalarProperty Name="NttmTenMH" ColumnName="NttmTenMH" />
+          <ScalarProperty Name="NttmSoTiet" ColumnName="NttmSoTiet" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="NttmSinhViens">
+      <EntityTypeMapping TypeName="NttmK22CNT4QLSinhVienModel.NttmSinhVien">
+        <MappingFragment StoreEntitySet="NttmSinhVien">
+          <ScalarProperty Name="NttmMaSV" ColumnName="NttmMaSV" />
+          <ScalarProperty Name="NttmHoSV" ColumnName="NttmHoSV" />
+          <ScalarProperty Name="NttmTenSV" ColumnName="NttmTenSV" />
+          <ScalarProperty Name="NttmPhai" ColumnName="NttmPhai" />
+          <ScalarProperty Name="NttmNgaySinh" ColumnName="NttmNgaySinh" />
+          <ScalarProperty Name="NttmNoiSinh" ColumnName="NttmNoiSinh" />
+          <ScalarProperty Name="NttmMaKH" ColumnName="NttmMaKH" />
+          <ScalarProperty Name="NttmHocBong" ColumnName="NttmHocBong" />
+          <ScalarProperty Name="NttmDiemTrungBinh" ColumnName="NttmDiemTrungBinh" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="NttmKetQuas">
+      <EntityTypeMapping TypeName="NttmK22CNT4QLSinhVienModel.NttmKetQua">
+        <MappingFragment StoreEntitySet="NttmKetQua">
+          <ScalarProperty Name="NttmDiem" ColumnName="NttmDiem" />
+          <ScalarProperty Name="NttmMaMH" ColumnName="NttmMaMH" />
+          <ScalarProperty Name="NttmMaSV" ColumnName="NttmMaSV" />
+          <ScalarProperty Name="NttmKQ" ColumnName="NttmKQ" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

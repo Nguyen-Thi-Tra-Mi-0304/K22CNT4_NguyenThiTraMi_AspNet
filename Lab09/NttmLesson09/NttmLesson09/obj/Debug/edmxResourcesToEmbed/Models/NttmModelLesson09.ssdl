@@ -1,0 +1,95 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="NttmK22CNT4QLSinhVienModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="NttmKetQua">
+    <Key>
+      <PropertyRef Name="NttmKQ" />
+    </Key>
+    <Property Name="NttmKQ" Type="nchar" MaxLength="10" Nullable="false" />
+    <Property Name="NttmMaSV" Type="nchar" MaxLength="10" />
+    <Property Name="NttmMaMH" Type="nchar" MaxLength="10" />
+    <Property Name="NttmDiem" Type="decimal" Precision="18" Scale="0" />
+  </EntityType>
+  <EntityType Name="NttmKhoa">
+    <Key>
+      <PropertyRef Name="NttmMaKH" />
+    </Key>
+    <Property Name="NttmMaKH" Type="nchar" MaxLength="10" Nullable="false" />
+    <Property Name="NttmTenKH" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="NttmMonHoc">
+    <Key>
+      <PropertyRef Name="NttmMaMH" />
+    </Key>
+    <Property Name="NttmMaMH" Type="nchar" MaxLength="10" Nullable="false" />
+    <Property Name="NttmTenMH" Type="nvarchar" MaxLength="50" />
+    <Property Name="NttmSoTiet" Type="decimal" Precision="18" Scale="0" />
+  </EntityType>
+  <EntityType Name="NttmSinhVien">
+    <Key>
+      <PropertyRef Name="NttmMaSV" />
+    </Key>
+    <Property Name="NttmMaSV" Type="nchar" MaxLength="10" Nullable="false" />
+    <Property Name="NttmHoSV" Type="nvarchar" MaxLength="50" />
+    <Property Name="NttmTenSV" Type="nvarchar" MaxLength="50" />
+    <Property Name="NttmPhai" Type="bit" />
+    <Property Name="NttmNgaySinh" Type="date" />
+    <Property Name="NttmNoiSinh" Type="nvarchar" MaxLength="50" />
+    <Property Name="NttmMaKH" Type="nchar" MaxLength="10" />
+    <Property Name="NttmHocBong" Type="decimal" Precision="18" Scale="0" />
+    <Property Name="NttmDiemTrungBinh" Type="decimal" Precision="18" Scale="0" />
+  </EntityType>
+  <Association Name="FK_NttmKetQua_NttmMonHoc">
+    <End Role="NttmMonHoc" Type="Self.NttmMonHoc" Multiplicity="0..1" />
+    <End Role="NttmKetQua" Type="Self.NttmKetQua" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="NttmMonHoc">
+        <PropertyRef Name="NttmMaMH" />
+      </Principal>
+      <Dependent Role="NttmKetQua">
+        <PropertyRef Name="NttmMaMH" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_NttmKetQua_NttmSinhVien">
+    <End Role="NttmSinhVien" Type="Self.NttmSinhVien" Multiplicity="0..1" />
+    <End Role="NttmKetQua" Type="Self.NttmKetQua" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="NttmSinhVien">
+        <PropertyRef Name="NttmMaSV" />
+      </Principal>
+      <Dependent Role="NttmKetQua">
+        <PropertyRef Name="NttmMaSV" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_NttmSinhVien_NttmKhoa">
+    <End Role="NttmKhoa" Type="Self.NttmKhoa" Multiplicity="0..1" />
+    <End Role="NttmSinhVien" Type="Self.NttmSinhVien" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="NttmKhoa">
+        <PropertyRef Name="NttmMaKH" />
+      </Principal>
+      <Dependent Role="NttmSinhVien">
+        <PropertyRef Name="NttmMaKH" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="NttmK22CNT4QLSinhVienModelStoreContainer">
+    <EntitySet Name="NttmKetQua" EntityType="Self.NttmKetQua" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="NttmKhoa" EntityType="Self.NttmKhoa" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="NttmMonHoc" EntityType="Self.NttmMonHoc" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="NttmSinhVien" EntityType="Self.NttmSinhVien" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="FK_NttmKetQua_NttmMonHoc" Association="Self.FK_NttmKetQua_NttmMonHoc">
+      <End Role="NttmMonHoc" EntitySet="NttmMonHoc" />
+      <End Role="NttmKetQua" EntitySet="NttmKetQua" />
+    </AssociationSet>
+    <AssociationSet Name="FK_NttmKetQua_NttmSinhVien" Association="Self.FK_NttmKetQua_NttmSinhVien">
+      <End Role="NttmSinhVien" EntitySet="NttmSinhVien" />
+      <End Role="NttmKetQua" EntitySet="NttmKetQua" />
+    </AssociationSet>
+    <AssociationSet Name="FK_NttmSinhVien_NttmKhoa" Association="Self.FK_NttmSinhVien_NttmKhoa">
+      <End Role="NttmKhoa" EntitySet="NttmKhoa" />
+      <End Role="NttmSinhVien" EntitySet="NttmSinhVien" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

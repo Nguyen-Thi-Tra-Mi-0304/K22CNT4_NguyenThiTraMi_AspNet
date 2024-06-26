@@ -1,0 +1,42 @@
+﻿@model NttmLesson09.Models.NttmKetQua
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>NttmKetQua</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.NttmDiem)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.NttmDiem)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.NttmMonHoc.NttmTenMH)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.NttmMonHoc.NttmTenMH)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.NttmSinhVien.NttmHoSV)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.NttmSinhVien.NttmHoSV)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "NttmEdit", new { id = Model.NttmKQ.Trim() }) |
+    @Html.ActionLink("Back to List", "NttmIndex")
+</p>
