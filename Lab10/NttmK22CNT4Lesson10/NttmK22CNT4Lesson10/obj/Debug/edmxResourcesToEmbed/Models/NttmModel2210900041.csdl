@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="NttmK22CT4Lesson10Model" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="NttmAccount">
+    <Key>
+      <PropertyRef Name="NttmID" />
+    </Key>
+    <Property Name="NttmID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="NttmUserName" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="NttmPassWord" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="NttmFullName" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="NttmEmail" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="NttmPhone" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="NttmActive" Type="Boolean" />
+  </EntityType>
+  <EntityContainer Name="NttmK22CT4Lesson10Entities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="NttmAccounts" EntityType="Self.NttmAccount" />
+  </EntityContainer>
+</Schema>
