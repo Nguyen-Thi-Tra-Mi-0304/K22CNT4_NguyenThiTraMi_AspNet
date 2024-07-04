@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="NttmK22CNT4Lesson11DbModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="NttmCategory">
+    <Key>
+      <PropertyRef Name="NttmID" />
+    </Key>
+    <Property Name="NttmID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="NttmCateName" Type="nvarchar" MaxLength="50" />
+    <Property Name="NttmStatus" Type="bit" />
+  </EntityType>
+  <EntityType Name="NttmProduct">
+    <Key>
+      <PropertyRef Name="NttmID2210900041" />
+    </Key>
+    <Property Name="NttmID2210900041" Type="int" Nullable="false" />
+    <Property Name="NttmProName" Type="nvarchar" MaxLength="50" />
+    <Property Name="NttmQty" Type="int" />
+    <Property Name="NttmPrice" Type="float" />
+    <Property Name="NttmCateId" Type="int" />
+    <Property Name="NttmActive" Type="bit" />
+  </EntityType>
+  <Association Name="FK_NttmProduct_NttmCategory">
+    <End Role="NttmCategory" Type="Self.NttmCategory" Multiplicity="0..1" />
+    <End Role="NttmProduct" Type="Self.NttmProduct" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="NttmCategory">
+        <PropertyRef Name="NttmID" />
+      </Principal>
+      <Dependent Role="NttmProduct">
+        <PropertyRef Name="NttmCateId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="NttmK22CNT4Lesson11DbModelStoreContainer">
+    <EntitySet Name="NttmCategory" EntityType="Self.NttmCategory" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="NttmProduct" EntityType="Self.NttmProduct" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="FK_NttmProduct_NttmCategory" Association="Self.FK_NttmProduct_NttmCategory">
+      <End Role="NttmCategory" EntitySet="NttmCategory" />
+      <End Role="NttmProduct" EntitySet="NttmProduct" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

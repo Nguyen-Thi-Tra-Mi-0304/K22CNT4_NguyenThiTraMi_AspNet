@@ -1,0 +1,65 @@
+﻿@model NttmK22CNT4Lesson11_2210900041.Models.NttmProduct
+
+@{
+    ViewBag.Title = "Delete";
+    Layout = "~/Views/Shared/_Nttm2210900041Layout.cshtml";
+}
+
+<h2>Delete</h2>
+
+<h3>Are you sure you want to delete this?</h3>
+<div>
+    <h4>NttmProduct</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.NttmProName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.NttmProName)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.NttmQty)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.NttmQty)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.NttmPrice)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.NttmPrice)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.NttmActive)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.NttmActive)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.NttmCategory.NttmCateName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.NttmCategory.NttmCateName)
+        </dd>
+
+    </dl>
+
+    @using (Html.BeginForm()) {
+        @Html.AntiForgeryToken()
+
+        <div class="form-actions no-color">
+            <input type="submit" value="Delete" class="btn btn-success my-3" /> |
+            @Html.ActionLink("Back to List", "NttmIndex")
+        </div>
+    }
+</div>

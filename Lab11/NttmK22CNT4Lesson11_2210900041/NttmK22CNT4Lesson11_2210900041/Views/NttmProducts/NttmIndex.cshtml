@@ -1,0 +1,73 @@
+﻿@model IEnumerable<NttmK22CNT4Lesson11_2210900041.Models.NttmProduct>
+
+@{
+    ViewBag.Title = "Danh sách sản phẩm";
+    Layout = "~/Views/Shared/_Nttm2210900041Layout.cshtml";
+}
+
+<h2>Danh sách sản phẩm"</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.NttmID2210900041)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.NttmProName)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.NttmQty)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.NttmPrice)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.NttmActive)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.NttmCategory.NttmCateName)
+        </th>
+        <th>Chức năng</th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.NttmID2210900041)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.NttmProName)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.NttmQty)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.NttmPrice)
+        </td>
+        <td>
+@*            @Html.DisplayFor(modelItem => item.NttmActive)
+*@            @if (item.NttmActive == true)
+            {
+                <span style="color: green">Hoạt động</span>
+            }
+            else
+            {
+                <span style="color: red">Không Hoạt động</span>
+
+            }
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.NttmCategory.NttmCateName)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id = item.NttmID2210900041 }) |
+            @Html.ActionLink("Details", "Details", new { id = item.NttmID2210900041 }) |
+            @Html.ActionLink("Delete", "Delete", new { id = item.NttmID2210900041 })
+        </td>
+    </tr>
+}
+
+</table>

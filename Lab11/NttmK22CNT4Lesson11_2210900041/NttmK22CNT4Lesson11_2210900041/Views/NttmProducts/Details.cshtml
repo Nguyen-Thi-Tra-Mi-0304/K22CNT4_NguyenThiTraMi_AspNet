@@ -1,0 +1,59 @@
+﻿@model NttmK22CNT4Lesson11_2210900041.Models.NttmProduct
+
+@{
+    ViewBag.Title = "Details";
+    Layout = "~/Views/Shared/_Nttm2210900041Layout.cshtml";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>NttmProduct</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.NttmProName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.NttmProName)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.NttmQty)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.NttmQty)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.NttmPrice)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.NttmPrice)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.NttmActive)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.NttmActive)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.NttmCategory.NttmCateName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.NttmCategory.NttmCateName)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.NttmID2210900041 }) |
+    @Html.ActionLink("Back to List", "NttmIndex")
+</p>

@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="NttmK22CNT4Lesson11DbModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="NttmCategory">
+    <Key>
+      <PropertyRef Name="NttmID" />
+    </Key>
+    <Property Name="NttmID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="NttmCateName" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="NttmStatus" Type="Boolean" />
+    <NavigationProperty Name="NttmProducts" Relationship="Self.FK_NttmProduct_NttmCategory" FromRole="NttmCategory" ToRole="NttmProduct" />
+  </EntityType>
+  <EntityType Name="NttmProduct">
+    <Key>
+      <PropertyRef Name="NttmID2210900041" />
+    </Key>
+    <Property Name="NttmID2210900041" Type="Int32" Nullable="false" />
+    <Property Name="NttmProName" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="NttmQty" Type="Int32" />
+    <Property Name="NttmPrice" Type="Double" />
+    <Property Name="NttmCateId" Type="Int32" />
+    <Property Name="NttmActive" Type="Boolean" />
+    <NavigationProperty Name="NttmCategory" Relationship="Self.FK_NttmProduct_NttmCategory" FromRole="NttmProduct" ToRole="NttmCategory" />
+  </EntityType>
+  <Association Name="FK_NttmProduct_NttmCategory">
+    <End Role="NttmCategory" Type="Self.NttmCategory" Multiplicity="0..1" />
+    <End Role="NttmProduct" Type="Self.NttmProduct" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="NttmCategory">
+        <PropertyRef Name="NttmID" />
+      </Principal>
+      <Dependent Role="NttmProduct">
+        <PropertyRef Name="NttmCateId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="NttmK22CNT4Lesson11DbEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="NttmCategories" EntityType="Self.NttmCategory" />
+    <EntitySet Name="NttmProducts" EntityType="Self.NttmProduct" />
+    <AssociationSet Name="FK_NttmProduct_NttmCategory" Association="Self.FK_NttmProduct_NttmCategory">
+      <End Role="NttmCategory" EntitySet="NttmCategories" />
+      <End Role="NttmProduct" EntitySet="NttmProducts" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>
