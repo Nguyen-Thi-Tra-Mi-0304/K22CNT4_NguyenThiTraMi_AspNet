@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="NguyenThiTraMi_2210900041Model.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="NTTM_SACH">
+    <Key>
+      <PropertyRef Name="Nttm_MaSach" />
+    </Key>
+    <Property Name="Nttm_MaSach" Type="nchar" MaxLength="10" Nullable="false" />
+    <Property Name="Nttm_TenSach" Type="nvarchar" MaxLength="250" />
+    <Property Name="Nttm_SoTrang" Type="int" />
+    <Property Name="Nttm_NamXB" Type="int" />
+    <Property Name="Nttm_MaTG" Type="nchar" MaxLength="10" />
+    <Property Name="Nttm_TrangThai" Type="bit" />
+  </EntityType>
+  <EntityType Name="NTTM_TACGIA">
+    <Key>
+      <PropertyRef Name="Nttm_MaTG" />
+    </Key>
+    <Property Name="Nttm_MaTG" Type="nchar" MaxLength="10" Nullable="false" />
+    <Property Name="Nttm_TenTacGia" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <Association Name="FK_NTTM_SACH_NTTM_TACGIA">
+    <End Role="NTTM_TACGIA" Type="Self.NTTM_TACGIA" Multiplicity="0..1" />
+    <End Role="NTTM_SACH" Type="Self.NTTM_SACH" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="NTTM_TACGIA">
+        <PropertyRef Name="Nttm_MaTG" />
+      </Principal>
+      <Dependent Role="NTTM_SACH">
+        <PropertyRef Name="Nttm_MaTG" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="NguyenThiTraMi_2210900041ModelStoreContainer">
+    <EntitySet Name="NTTM_SACH" EntityType="Self.NTTM_SACH" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="NTTM_TACGIA" EntityType="Self.NTTM_TACGIA" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="FK_NTTM_SACH_NTTM_TACGIA" Association="Self.FK_NTTM_SACH_NTTM_TACGIA">
+      <End Role="NTTM_TACGIA" EntitySet="NTTM_TACGIA" />
+      <End Role="NTTM_SACH" EntitySet="NTTM_SACH" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

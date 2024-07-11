@@ -1,0 +1,140 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+      <Schema Namespace="NguyenThiTraMi_2210900041Model.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+        <EntityType Name="NTTM_SACH">
+          <Key>
+            <PropertyRef Name="Nttm_MaSach" />
+          </Key>
+          <Property Name="Nttm_MaSach" Type="nchar" MaxLength="10" Nullable="false" />
+          <Property Name="Nttm_TenSach" Type="nvarchar" MaxLength="250" />
+          <Property Name="Nttm_SoTrang" Type="int" />
+          <Property Name="Nttm_NamXB" Type="int" />
+          <Property Name="Nttm_MaTG" Type="nchar" MaxLength="10" />
+          <Property Name="Nttm_TrangThai" Type="bit" />
+        </EntityType>
+        <EntityType Name="NTTM_TACGIA">
+          <Key>
+            <PropertyRef Name="Nttm_MaTG" />
+          </Key>
+          <Property Name="Nttm_MaTG" Type="nchar" MaxLength="10" Nullable="false" />
+          <Property Name="Nttm_TenTacGia" Type="nvarchar" MaxLength="50" />
+        </EntityType>
+        <Association Name="FK_NTTM_SACH_NTTM_TACGIA">
+          <End Role="NTTM_TACGIA" Type="Self.NTTM_TACGIA" Multiplicity="0..1" />
+          <End Role="NTTM_SACH" Type="Self.NTTM_SACH" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="NTTM_TACGIA">
+              <PropertyRef Name="Nttm_MaTG" />
+            </Principal>
+            <Dependent Role="NTTM_SACH">
+              <PropertyRef Name="Nttm_MaTG" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <EntityContainer Name="NguyenThiTraMi_2210900041ModelStoreContainer">
+          <EntitySet Name="NTTM_SACH" EntityType="Self.NTTM_SACH" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="NTTM_TACGIA" EntityType="Self.NTTM_TACGIA" Schema="dbo" store:Type="Tables" />
+          <AssociationSet Name="FK_NTTM_SACH_NTTM_TACGIA" Association="Self.FK_NTTM_SACH_NTTM_TACGIA">
+            <End Role="NTTM_TACGIA" EntitySet="NTTM_TACGIA" />
+            <End Role="NTTM_SACH" EntitySet="NTTM_SACH" />
+          </AssociationSet>
+        </EntityContainer>
+      </Schema>
+    </edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="NguyenThiTraMi_2210900041Model" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+        <EntityType Name="NTTM_SACH">
+          <Key>
+            <PropertyRef Name="Nttm_MaSach" />
+          </Key>
+          <Property Name="Nttm_MaSach" Type="String" MaxLength="10" FixedLength="true" Unicode="true" Nullable="false" />
+          <Property Name="Nttm_TenSach" Type="String" MaxLength="250" FixedLength="false" Unicode="true" />
+          <Property Name="Nttm_SoTrang" Type="Int32" />
+          <Property Name="Nttm_NamXB" Type="Int32" />
+          <Property Name="Nttm_MaTG" Type="String" MaxLength="10" FixedLength="true" Unicode="true" />
+          <Property Name="Nttm_TrangThai" Type="Boolean" />
+          <NavigationProperty Name="NTTM_TACGIA" Relationship="Self.FK_NTTM_SACH_NTTM_TACGIA" FromRole="NTTM_SACH" ToRole="NTTM_TACGIA" />
+        </EntityType>
+        <EntityType Name="NTTM_TACGIA">
+          <Key>
+            <PropertyRef Name="Nttm_MaTG" />
+          </Key>
+          <Property Name="Nttm_MaTG" Type="String" MaxLength="10" FixedLength="true" Unicode="true" Nullable="false" />
+          <Property Name="Nttm_TenTacGia" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <NavigationProperty Name="NTTM_SACH" Relationship="Self.FK_NTTM_SACH_NTTM_TACGIA" FromRole="NTTM_TACGIA" ToRole="NTTM_SACH" />
+        </EntityType>
+        <Association Name="FK_NTTM_SACH_NTTM_TACGIA">
+          <End Role="NTTM_TACGIA" Type="Self.NTTM_TACGIA" Multiplicity="0..1" />
+          <End Role="NTTM_SACH" Type="Self.NTTM_SACH" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="NTTM_TACGIA">
+              <PropertyRef Name="Nttm_MaTG" />
+            </Principal>
+            <Dependent Role="NTTM_SACH">
+              <PropertyRef Name="Nttm_MaTG" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <EntityContainer Name="NguyenThiTraMi_2210900041Entities" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="NTTM_SACH" EntityType="Self.NTTM_SACH" />
+          <EntitySet Name="NTTM_TACGIA" EntityType="Self.NTTM_TACGIA" />
+          <AssociationSet Name="FK_NTTM_SACH_NTTM_TACGIA" Association="Self.FK_NTTM_SACH_NTTM_TACGIA">
+            <End Role="NTTM_TACGIA" EntitySet="NTTM_TACGIA" />
+            <End Role="NTTM_SACH" EntitySet="NTTM_SACH" />
+          </AssociationSet>
+        </EntityContainer>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="NguyenThiTraMi_2210900041ModelStoreContainer" CdmEntityContainer="NguyenThiTraMi_2210900041Entities">
+          <EntitySetMapping Name="NTTM_SACH">
+            <EntityTypeMapping TypeName="NguyenThiTraMi_2210900041Model.NTTM_SACH">
+              <MappingFragment StoreEntitySet="NTTM_SACH">
+                <ScalarProperty Name="Nttm_MaSach" ColumnName="Nttm_MaSach" />
+                <ScalarProperty Name="Nttm_TenSach" ColumnName="Nttm_TenSach" />
+                <ScalarProperty Name="Nttm_SoTrang" ColumnName="Nttm_SoTrang" />
+                <ScalarProperty Name="Nttm_NamXB" ColumnName="Nttm_NamXB" />
+                <ScalarProperty Name="Nttm_MaTG" ColumnName="Nttm_MaTG" />
+                <ScalarProperty Name="Nttm_TrangThai" ColumnName="Nttm_TrangThai" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="NTTM_TACGIA">
+            <EntityTypeMapping TypeName="NguyenThiTraMi_2210900041Model.NTTM_TACGIA">
+              <MappingFragment StoreEntitySet="NTTM_TACGIA">
+                <ScalarProperty Name="Nttm_MaTG" ColumnName="Nttm_MaTG" />
+                <ScalarProperty Name="Nttm_TenTacGia" ColumnName="Nttm_TenTacGia" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="true" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="true" />
+        <DesignerProperty Name="UseLegacyProvider" Value="false" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="None" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams></Diagrams>
+  </Designer>
+</edmx:Edmx>

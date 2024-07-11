@@ -1,0 +1,41 @@
+﻿@model IEnumerable<NguyenThiTraMi_2210900041.Models.NTTM_TACGIA>
+
+@{
+    ViewBag.Title = "Danh sách tác giả";
+    Layout = "~/Views/Shared/_NttmLayout.cshtml";
+}
+
+<h2>Danh sách tác giả</h2>
+
+@*<p>
+    @Html.ActionLink("Thêm Mới", "NttmCreate", new {@class="btn btn-primary my-3"})
+</p>*@
+<a href="NTTM_TACGIA/NttmCreate" class="btn btn-primary my-3">Thêm Mới</a>
+<table class="table tabel-bordered">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.Nttm_MaTG)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Nttm_TenTacGia)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.Nttm_MaTG)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Nttm_TenTacGia)
+        </td>
+        <td>
+            @Html.ActionLink("Nttm: Edit", "NttmEdit", new { id = item.Nttm_MaTG.Trim() }, new {@class="btn btn-success"}) |
+            @Html.ActionLink("Nttm: Details", "NttmDetails", new { id = item.Nttm_MaTG.Trim()}, new { @class = "btn btn-info" }) |
+            @Html.ActionLink("Nttm:Delete", "NttmDelete", new { id = item.Nttm_MaTG.Trim()}, new { @class = "btn btn-danger" })
+        </td>
+    </tr>
+}
+
+</table>

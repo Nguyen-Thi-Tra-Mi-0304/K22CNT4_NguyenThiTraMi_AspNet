@@ -1,0 +1,33 @@
+﻿@model NguyenThiTraMi_2210900041.Models.NTTM_TACGIA
+
+@{
+    ViewBag.Title = "Delete";
+    Layout = "~/Views/Shared/_NttmLayout.cshtml";
+}
+
+<h2>Delete</h2>
+
+<h3>Are you sure you want to delete this?</h3>
+<div>
+    <h4>NTTM_TACGIA</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Nttm_TenTacGia)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Nttm_TenTacGia)
+        </dd>
+
+    </dl>
+
+    @using (Html.BeginForm()) {
+        @Html.AntiForgeryToken()
+
+<div class="form-actions no-color">
+    <input type="submit" value="Delete" class="btn btn-danger my-3" /> |
+    @Html.ActionLink("Back to List", "NttmIndex", new { @class = "btn btn-secondary my-3" })
+</div>
+    }
+</div>

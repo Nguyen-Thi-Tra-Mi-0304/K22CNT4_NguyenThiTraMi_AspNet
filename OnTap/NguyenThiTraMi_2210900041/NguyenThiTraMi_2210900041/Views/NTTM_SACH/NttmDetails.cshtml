@@ -1,0 +1,66 @@
+﻿@model NguyenThiTraMi_2210900041.Models.NTTM_SACH
+
+@{
+    ViewBag.Title = "Details";
+    Layout = "~/Views/Shared/_NttmLayout.cshtml";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>NTTM_SACH</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Nttm_MaSach)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Nttm_MaSach)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Nttm_TenSach)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Nttm_TenSach)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Nttm_SoTrang)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Nttm_SoTrang)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Nttm_NamXB)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Nttm_NamXB)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Nttm_TrangThai)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Nttm_TrangThai)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.NTTM_TACGIA.Nttm_TenTacGia)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.NTTM_TACGIA.Nttm_TenTacGia)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Nttm: Edit", "NttmEdit", new { id = Model.Nttm_MaSach.Trim() }, new { @class = "btn btn-success my-3" }) |
+    @Html.ActionLink("Back to List", "NttmIndex")
+</p>

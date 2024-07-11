@@ -1,0 +1,34 @@
+﻿@model NguyenThiTraMi_2210900041.Models.NTTM_TACGIA
+
+@{
+    ViewBag.Title = "Details";
+    Layout = "~/Views/Shared/_NttmLayout.cshtml";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>NTTM_TACGIA</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Nttm_MaTG)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Nttm_MaTG)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Nttm_TenTacGia)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Nttm_TenTacGia)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Nttm: Edit", "NttmEdit", new { id = Model.Nttm_MaTG.Trim() }, new { @class = "btn btn-success my-3" }) |
+    @Html.ActionLink("Back to List", "NttmIndex", new { @class = "btn btn-secondary my-3" })
+</p>

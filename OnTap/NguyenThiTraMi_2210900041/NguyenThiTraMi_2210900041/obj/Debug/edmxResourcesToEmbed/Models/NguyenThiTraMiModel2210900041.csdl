@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="NguyenThiTraMi_2210900041Model" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="NTTM_SACH">
+    <Key>
+      <PropertyRef Name="Nttm_MaSach" />
+    </Key>
+    <Property Name="Nttm_MaSach" Type="String" MaxLength="10" FixedLength="true" Unicode="true" Nullable="false" />
+    <Property Name="Nttm_TenSach" Type="String" MaxLength="250" FixedLength="false" Unicode="true" />
+    <Property Name="Nttm_SoTrang" Type="Int32" />
+    <Property Name="Nttm_NamXB" Type="Int32" />
+    <Property Name="Nttm_MaTG" Type="String" MaxLength="10" FixedLength="true" Unicode="true" />
+    <Property Name="Nttm_TrangThai" Type="Boolean" />
+    <NavigationProperty Name="NTTM_TACGIA" Relationship="Self.FK_NTTM_SACH_NTTM_TACGIA" FromRole="NTTM_SACH" ToRole="NTTM_TACGIA" />
+  </EntityType>
+  <EntityType Name="NTTM_TACGIA">
+    <Key>
+      <PropertyRef Name="Nttm_MaTG" />
+    </Key>
+    <Property Name="Nttm_MaTG" Type="String" MaxLength="10" FixedLength="true" Unicode="true" Nullable="false" />
+    <Property Name="Nttm_TenTacGia" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="NTTM_SACH" Relationship="Self.FK_NTTM_SACH_NTTM_TACGIA" FromRole="NTTM_TACGIA" ToRole="NTTM_SACH" />
+  </EntityType>
+  <Association Name="FK_NTTM_SACH_NTTM_TACGIA">
+    <End Role="NTTM_TACGIA" Type="Self.NTTM_TACGIA" Multiplicity="0..1" />
+    <End Role="NTTM_SACH" Type="Self.NTTM_SACH" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="NTTM_TACGIA">
+        <PropertyRef Name="Nttm_MaTG" />
+      </Principal>
+      <Dependent Role="NTTM_SACH">
+        <PropertyRef Name="Nttm_MaTG" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="NguyenThiTraMi_2210900041Entities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="NTTM_SACH" EntityType="Self.NTTM_SACH" />
+    <EntitySet Name="NTTM_TACGIA" EntityType="Self.NTTM_TACGIA" />
+    <AssociationSet Name="FK_NTTM_SACH_NTTM_TACGIA" Association="Self.FK_NTTM_SACH_NTTM_TACGIA">
+      <End Role="NTTM_TACGIA" EntitySet="NTTM_TACGIA" />
+      <End Role="NTTM_SACH" EntitySet="NTTM_SACH" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>
